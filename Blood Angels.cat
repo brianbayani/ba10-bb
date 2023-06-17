@@ -5,6 +5,28 @@
       <categoryLinks>
         <categoryLink id="QEFTEHFUBzOLFXSB-qKtpq9kHMGF6X2oj-FthmKzsXoxa6s7KN-i5uzQu3AexqY6cJW" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6a08-99c0-9979-db8f" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="f949-b785-c234-0c6e" name="Apothecary Biologis" hidden="false" collective="false" import="true" targetId="42Xa-725o-QIcR-zELx" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="379c-922a-3d69-a963" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="55.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="949e-d5d4-14dd-ac68" name="Captain In Gravis Armour" hidden="false" collective="false" import="true" targetId="Mc63-4lsR-k29E-VVwT" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="97c6-9967-6cba-39ed" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="95.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="918b-5535-23b2-373c" name="Aggressor Squad, 3 Models" hidden="false" collective="false" import="true" targetId="ARwy-ZH3Q-YQ3h-Qtks" type="selectionEntry">
           <constraints>
@@ -33,6 +55,22 @@
       <categoryLinks>
         <categoryLink id="myo3U6iSaCZmlW9f-yRPRGt8Le5XbVPh0-kwmU3I9T8xZQGH7n-Jnolv9coGXvuxCpt" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a7ef-d5a3-f536-67a7" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="fdd0-05d7-ae05-f910" name="Primaris Apothecary" hidden="false" collective="false" import="true" targetId="0YWJ-quul-XEcT-dT5M" type="selectionEntry"/>
+            <entryLink id="f087-ccd9-8416-f0a7" name="Chief Librarian Mephiston" hidden="false" collective="false" import="true" targetId="mjeY-KHLt-uk7c-av5f" type="selectionEntry"/>
+            <entryLink id="eaff-3775-9630-110f" name="Primaris Techmarine" hidden="false" collective="false" import="true" targetId="xKz0-DMNY-IvHu-wKpG" type="selectionEntry"/>
+            <entryLink id="3aa4-7bdf-79cc-926b" name="Primaris Lieutenant" hidden="false" collective="false" import="true" targetId="k93W-WBoa-FF7V-NmUX" type="selectionEntry"/>
+            <entryLink id="c4aa-49b4-6566-b2fa" name="Primaris Librarian" hidden="false" collective="false" import="true" targetId="wK9P-zkEx-nzjb-jqTN" type="selectionEntry"/>
+            <entryLink id="8605-24d6-a7a1-5260" name="Judiciar" hidden="false" collective="false" import="true" targetId="OBqI-UxIK-COyw-fS5g" type="selectionEntry"/>
+            <entryLink id="d3ad-3e3c-b3c2-e489" name="Primaris Company Champion" hidden="false" collective="false" import="true" targetId="rCAZ-56fO-tCqP-rFSC" type="selectionEntry"/>
+            <entryLink id="ea08-85cb-530c-31a2" name="Primaris Chaplain" hidden="false" collective="false" import="true" targetId="UPFw-Sa8s-3kbL-9F26" type="selectionEntry"/>
+            <entryLink id="d3a5-efb5-9a80-7b9b" name="Primaris Captain" hidden="false" collective="false" import="true" targetId="ftX8-6MVD-FWQS-zbHK" type="selectionEntry"/>
+            <entryLink id="2083-aef5-3fa8-4216" name="Primaris Ancient" hidden="false" collective="false" import="true" targetId="luzB-coNt-iqfA-YfAY" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="db24-624f-b84b-594e" name="Assault Intercessor Squad, 5 Models" hidden="false" collective="false" import="true" targetId="QzVB-gfMC-kzRA-KM1F" type="selectionEntry">
           <constraints>
@@ -45,6 +83,20 @@
       <categoryLinks>
         <categoryLink id="WHBBOCHcmMhg3ff1-UfSL1q6jcn2BA0co-j5h86XzlE1UQFoiF-gUcdt8sPhGH0AfVs" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dd22-9be6-633f-0e1c" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="0426-597e-2710-b67e" name="Brother Corbulo" hidden="false" collective="false" import="true" targetId="2xpA-sJkd-n3mQ-ZXaM" type="selectionEntry"/>
+            <entryLink id="d26a-42b3-41e1-04d2" name="Captain Tycho" hidden="false" collective="false" import="true" targetId="zFXv-zNnZ-Aypo-J6sJ" type="selectionEntry"/>
+            <entryLink id="2eb4-7fa6-ec4a-3aef" name="Gabriel Seth" hidden="false" collective="false" import="true" targetId="oNPm-JisE-rzy8-DtkK" type="selectionEntry"/>
+            <entryLink id="4700-53de-3117-6879" name="Sanguinary Priest" hidden="false" collective="false" import="true" targetId="EuOo-W4Ni-wlhD-77qQ" type="selectionEntry"/>
+            <entryLink id="65b3-1d3e-3e0d-6fdd" name="Captain" hidden="false" collective="false" import="true" targetId="IyQm-6d6C-5ekK-GAhW" type="selectionEntry"/>
+            <entryLink id="c79c-c4e0-a6ca-fd4d" name="Chaplain" hidden="false" collective="false" import="true" targetId="wVD7-ZUys-17Kd-hO9N" type="selectionEntry"/>
+            <entryLink id="e5e6-c790-14a4-a7d3" name="Librarian" hidden="false" collective="false" import="true" targetId="J7e3-FIZE-LiCP-duUR" type="selectionEntry"/>
+            <entryLink id="d790-926f-f634-ed15" name="Lieutenant" hidden="false" collective="false" import="true" targetId="fmlf-dVua-BInD-DZ4R" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="8d8c-77f5-8d2a-76fb" name="Assault Squad, 5 Models" hidden="false" collective="false" import="true" targetId="AU4U-P4uL-zFnt-NXuC" type="selectionEntry"/>
       </entryLinks>
@@ -56,14 +108,33 @@
       <categoryLinks>
         <categoryLink id="U1MaMDCD8RHnzCcr-PXjWeKzyrBV36WxF-bgf5UJQUgrMgf35f-lTyM1kpQ2ObbO9oi" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8d48-62bf-6f36-1125" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="196f-e380-2843-59e5" name="Sanguinary Priest With Jump Pack" hidden="false" collective="false" import="true" targetId="kEUR-Xfvz-IYal-FfTs" type="selectionEntry"/>
+            <entryLink id="f589-e6c9-b0f4-47a4" name="Captain With Jump Pack" hidden="false" collective="false" import="true" targetId="AXyG-mGAe-z2SW-mqdV" type="selectionEntry"/>
+            <entryLink id="e57f-dc29-5497-fd80" name="Chaplain With Jump Pack" hidden="false" collective="false" import="true" targetId="FPpl-QQni-qsqh-RbmM" type="selectionEntry"/>
+            <entryLink id="f4fb-17dd-be28-f175" name="Librarian With Jump Pack" hidden="false" collective="false" import="true" targetId="pE1e-PA26-54id-TS82" type="selectionEntry"/>
+            <entryLink id="6e4c-94a8-cbd1-f795" name="Commander Dante" hidden="false" collective="false" import="true" targetId="b7Wy-lj87-oUEB-sqmt" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="ee24-3ebf-ed49-4e24" name="Assault Squad with Jump Packs, 5 Models" hidden="false" collective="false" import="true" targetId="OQWM-rBWp-KbZG-irfA" type="selectionEntry"/>
+        <entryLink id="ee24-3ebf-ed49-4e24" name="Assault Squad With Jump Packs, 5 Models" hidden="false" collective="false" import="true" targetId="OQWM-rBWp-KbZG-irfA" type="selectionEntry"/>
       </entryLinks>
     </entryLink>
     <entryLink id="GK1d6SzjTt6Qg9bT-JNmQMcwBeRLBkSHx-QcfcxY64CyXSF1XC-1dOK7Fjxmh6IWhjJ" name="Astartes Servitors" hidden="false" collective="false" import="false" targetId="hV7U-rE0P-KPGk-TqNy" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="U5aQQnSUtaJzcMjX-gDyMg6Poq7cvmpMf-P7auMI08RKbkUG8H-cArQ7OonmgbwSI1n" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="01cc-7327-b535-2489" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="77f9-bdf7-574b-0421" name="Primaris Techmarine" hidden="false" collective="false" import="true" targetId="xKz0-DMNY-IvHu-wKpG" type="selectionEntry"/>
+            <entryLink id="75f5-5cde-407e-cae9" name="Techmarine" hidden="false" collective="false" import="true" targetId="Ytcg-F9M0-XV6C-7NoD" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="55.0"/>
       </costs>
@@ -104,6 +175,14 @@
       <categoryLinks>
         <categoryLink id="nx1ndMCaNNqh8yNn-sHB2fzRcCJ7Dudpr-04DrBOieZtBBJaRd-zcoRFCRE7QFp55CA" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="956d-79e3-0067-3ec1" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="332c-76e2-b36b-7397" name="Captain On Bike" hidden="false" collective="false" import="true" targetId="nNvf-Bp57-igzC-Od9k" type="selectionEntry"/>
+            <entryLink id="30b6-5b3c-3e4a-512d" name="Chaplain On Bike" hidden="false" collective="false" import="true" targetId="4Xr8-dUBd-zA4L-t9w9" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="611b-b4a2-58e9-c535" name="Bike Squad, 3 Models" hidden="false" collective="false" import="true" targetId="deMg-EMcR-UAz5-cbc2" type="selectionEntry"/>
         <entryLink id="0e4d-7898-60c0-7b48" name="Attack Bike" hidden="false" collective="false" import="true" targetId="baNP-Qamb-TUO9-0ls8" type="selectionEntry"/>
@@ -121,6 +200,28 @@
       <categoryLinks>
         <categoryLink id="JQvJxwT0Kd7daowW-PrKKod5IypZ62H4S-yN2TdGji7XkmHwHt-HiBXMKNnsrEguDp9" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="901a-9b6b-1e09-7e42" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="3231-1c89-4e96-2f20" name="Primaris Apothecary" hidden="false" collective="false" import="true" targetId="0YWJ-quul-XEcT-dT5M" type="selectionEntry"/>
+            <entryLink id="6c31-3038-f279-99e3" name="Bladeguard Ancient" hidden="false" collective="false" import="true" targetId="5KPM-c2x8-anrh-JyBM" type="selectionEntry"/>
+            <entryLink id="9292-84a1-f5b9-f719" name="Primaris Lieutenant" hidden="false" collective="false" import="true" targetId="k93W-WBoa-FF7V-NmUX" type="selectionEntry"/>
+            <entryLink id="6967-e6b7-8386-33d3" name="Judiciar" hidden="false" collective="false" import="true" targetId="OBqI-UxIK-COyw-fS5g" type="selectionEntry"/>
+            <entryLink id="c199-1bc1-887c-9c46" name="Primaris Company Champion" hidden="false" collective="false" import="true" targetId="rCAZ-56fO-tCqP-rFSC" type="selectionEntry"/>
+            <entryLink id="805b-d696-d6cf-add5" name="Primaris Chaplain" hidden="false" collective="false" import="true" targetId="UPFw-Sa8s-3kbL-9F26" type="selectionEntry"/>
+            <entryLink id="89ee-808e-b38f-d72b" name="Primaris Captain" hidden="false" collective="false" import="true" targetId="ftX8-6MVD-FWQS-zbHK" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="590c-0650-2202-22a5" name="Relic Shield" hidden="false" collective="false" import="true" targetId="7f7c-0b4e-1aac-6688" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="df25-a0ef-b767-4274" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="e98b-0806-35c6-6c86" name="Primaris Ancient" hidden="false" collective="false" import="true" targetId="luzB-coNt-iqfA-YfAY" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="d1bf-b192-3c49-2fd0" name="Bladeguard Veteran Squad, 3 Models" hidden="false" collective="false" import="true" targetId="dm5V-F4JD-b5Gv-a4E6" type="selectionEntry"/>
       </entryLinks>
@@ -257,57 +358,23 @@
       <categoryLinks>
         <categoryLink id="CqHLvNFOmKFmq614-trJqzz2jX09h3Uo0-DBCBvTImKEJwlttp-KfluWfQbbOG5tZyV" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b876-fc01-e267-fad9" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e074-6cb6-aed8-5360" name="Captain Tycho" hidden="false" collective="false" import="true" targetId="zFXv-zNnZ-Aypo-J6sJ" type="selectionEntry"/>
+            <entryLink id="b2e4-6773-26cd-4284" name="Gabriel Seth" hidden="false" collective="false" import="true" targetId="oNPm-JisE-rzy8-DtkK" type="selectionEntry"/>
+            <entryLink id="8808-b5c5-a2be-f121" name="Captain" hidden="false" collective="false" import="true" targetId="IyQm-6d6C-5ekK-GAhW" type="selectionEntry"/>
+            <entryLink id="9800-30fa-4108-e89b" name="Chaplain" hidden="false" collective="false" import="true" targetId="wVD7-ZUys-17Kd-hO9N" type="selectionEntry"/>
+            <entryLink id="57a1-f275-baaa-96dc" name="Librarian" hidden="false" collective="false" import="true" targetId="J7e3-FIZE-LiCP-duUR" type="selectionEntry"/>
+            <entryLink id="fe50-1515-6dea-07f4" name="Lieutenant" hidden="false" collective="false" import="true" targetId="fmlf-dVua-BInD-DZ4R" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="165.0"/>
       </costs>
     </entryLink>
     <entryLink id="UfsQdYQl7wy1kvDM-D0gmTr2W0VFH0sYL-Aul7CWs6HP0XO3jB-zqR8KcnQ6zuiHjLq" name="Commander Dante" hidden="false" collective="false" import="false" targetId="b7Wy-lj87-oUEB-sqmt" type="selectionEntry">
-      <profiles>
-        <profile id="91eb-894f-0a7c-4d06" name="The Axe Mortalis" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
-            <characteristic name="A" typeId="1873-f632-0b12-bd7a">8</characteristic>
-            <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
-            <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">2</characteristic>
-            <characteristic name="S" typeId="9a4c-f516-2825-0fea">7</characteristic>
-            <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">3</characteristic>
-            <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
-            <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Lethal Hits</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="66f4-6913-ac6b-36e1" name="Lord Regent of the Imperium Nihilus" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">While this model is leading a unit, add 1 to Charge rolls made for that unit and each time a model in that unit makes an attack, add 1 to the Hit roll.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="e0b0-19ea-a7ec-15d0" name="Perdition" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="8955-beeb-adf1-f619">6</characteristic>
-            <characteristic name="A" typeId="1873-f632-0b12-bd7a">1</characteristic>
-            <characteristic name="BS" typeId="327b-0f44-3b33-d89e">5</characteristic>
-            <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-            <characteristic name="S" typeId="9a4c-f516-2825-0fea">8</characteristic>
-            <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">4</characteristic>
-            <characteristic name="D" typeId="f17f-4510-0ce9-db28">D6</characteristic>
-            <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Melta 2, Pistol, Sustained Hits D3</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="a2cc-43e5-8dc2-ab2a" name="Death Mask of Sanguinius" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">At the start of the Fight phase, each enemy unit within 6&quot; of this model must take a Battle-shock test, subtracting 1 from that test when they do.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="f6f0-eddc-665a-2aa4" name="Invlunerable Save" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">4+</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="9045-b2e2-9f59-7769" name="Deep Strike" hidden="false" targetId="fa05-b9a3-0573-e3cb" type="rule"/>
-        <infoLink id="32ed-e530-ceb5-18d2" name="Leader" hidden="false" targetId="d0db-b100-0ea0-1e3d" type="rule"/>
-        <infoLink id="bacf-53b0-a8c0-8cd8" name="Oath of Moment" hidden="false" targetId="80c7-b138-11bb-fcc3" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="NCLi8VZpgUjwTBkp-ey1zxW5dBeJZ3se1-pGxAAOz03ynvtTeo-r7hCTK4Fd0oYUnfb" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
         <categoryLink id="45a5-8371-59b4-0c14" name="Commander Dante" hidden="false" targetId="4aad-7704-72a3-3f5e" primary="false"/>
@@ -339,6 +406,13 @@
       <categoryLinks>
         <categoryLink id="fu8USvsw0NfYzqdS-9cnDRYaBQyeFT78i-cbfm5OzJO8IkJDMV-YGs9zB7iVToHUBnc" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="093a-5ded-ba79-e5df" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="f21d-de4c-8aff-2a5d" name="Primaris Chaplain" hidden="false" collective="false" import="true" targetId="UPFw-Sa8s-3kbL-9F26" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="88c1-228d-f47a-c38d" name="Death Company Intercessors, 5 Models" hidden="false" collective="false" import="true" targetId="QGf3-iMfr-S0Wm-0guK" type="selectionEntry"/>
       </entryLinks>
@@ -347,6 +421,14 @@
       <categoryLinks>
         <categoryLink id="5dvuBywoQx1C3272-lEXvCbVvtygosUVl-H3gb4XtWYMYgc1T6-lNzWZlNl1Be4nDtx" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7059-5279-b300-4902" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="3299-bada-51d9-2af6" name="Chaplain" hidden="false" collective="false" import="true" targetId="wVD7-ZUys-17Kd-hO9N" type="selectionEntry"/>
+            <entryLink id="8aaa-be55-aa36-5124" name="Tycho The Lost" hidden="false" collective="false" import="true" targetId="vZCe-gxnk-YBcr-5zP1" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6b77-57b9-efbe-3a18" name="Death Company Marines With Jump Packs, 5 Models" hidden="false" collective="false" import="true" targetId="MehL-JsAr-L7cM-JtPH" type="selectionEntry"/>
       </entryLinks>
@@ -355,14 +437,31 @@
       <categoryLinks>
         <categoryLink id="NU2sY1ltyuCgQwSu-AAIM5aDQhPyfZUab-QOJ7Ns7G6G2G1NPx-qvNP38fgeoZ7xAWh" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="60f3-c2f3-b304-5932" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="332e-e9c5-e4bc-5b58" name="Astorath" hidden="false" collective="false" import="true" targetId="Q0dD-K9Kj-uK9Z-HEtN" type="selectionEntry"/>
+            <entryLink id="bee2-160e-e8a8-bb65" name="Lemartes" hidden="false" collective="false" import="true" targetId="eHlb-Ud45-gvS1-Jhby" type="selectionEntry"/>
+            <entryLink id="333f-353e-953b-d832" name="Chaplain With Jump Pack" hidden="false" collective="false" import="true" targetId="FPpl-QQni-qsqh-RbmM" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="9d25-ab48-2c2f-1176" name="Death Company Marines with Jump Packs, 5 Models" hidden="false" collective="false" import="true" targetId="MehL-JsAr-L7cM-JtPH" type="selectionEntry"/>
+        <entryLink id="9d25-ab48-2c2f-1176" name="Death Company Marines With Jump Packs, 5 Models" hidden="false" collective="false" import="true" targetId="MehL-JsAr-L7cM-JtPH" type="selectionEntry"/>
       </entryLinks>
     </entryLink>
     <entryLink id="D83AMM6cffDSHQoO-J7oKm7Dt2mZkW2gE-pxBgqhbwp6f9Ry5P-vt6Qd7JrOWhagRAt" name="Desolation Squad" hidden="false" collective="false" import="false" targetId="jbVU-qbuX-Y9MU-xnXW" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="03YFC1ffcPcEdXy8-ESmSYKxZHIy2S1j0-L5jDkh9jgmTs6Sld-wr2nXnlXd1tRtwZc" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6b74-743b-d127-32b0" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8da1-33c2-d533-b927" name="Primaris Librarian" hidden="false" collective="false" import="true" targetId="wK9P-zkEx-nzjb-jqTN" type="selectionEntry"/>
+            <entryLink id="74e4-85f6-fdce-f6dc" name="Primaris Ancient" hidden="false" collective="false" import="true" targetId="luzB-coNt-iqfA-YfAY" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="e77a-a816-6fd9-b195" name="5 models" hidden="false" collective="false" import="true" targetId="OO1J-7tvh-QWBx-r1OB" type="selectionEntry"/>
       </entryLinks>
@@ -371,6 +470,14 @@
       <categoryLinks>
         <categoryLink id="r57byqur6UmCvnxb-7Ivz95hsxvyq1Onk-v7ibTZQ90OI2MDJZ-P9r13RtBncSBl8GV" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ed99-7b5e-578d-58a6" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="7203-870d-4871-973a" name="Brother Corbulo" hidden="false" collective="false" import="true" targetId="2xpA-sJkd-n3mQ-ZXaM" type="selectionEntry"/>
+            <entryLink id="b154-e79a-fc76-581d" name="Sanguinary Priest" hidden="false" collective="false" import="true" targetId="EuOo-W4Ni-wlhD-77qQ" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="42db-807d-29d9-b608" name="5 models" hidden="false" collective="false" import="true" targetId="O1Kl-HY2P-F2Az-E9dT" type="selectionEntry"/>
       </entryLinks>
@@ -395,6 +502,14 @@
       <categoryLinks>
         <categoryLink id="Shca6jS6kFH1dtEQ-1Z2GVq2IBgEhbnhp-O8WQ8FPqyrrhUvrB-R0JQjcMPDN4pAmYQ" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8d15-87d3-0340-59b2" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="ddd7-7c6e-6efb-9845" name="Captain In Phobos Armour" hidden="false" collective="false" import="true" targetId="g9ti-a7OC-jA4D-5ZcP" type="selectionEntry"/>
+            <entryLink id="f5ba-c38d-8d91-2853" name="Librarian In Phobos Armour" hidden="false" collective="false" import="true" targetId="ffir-m7d4-wETa-8nyi" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="95.0"/>
       </costs>
@@ -403,6 +518,28 @@
       <categoryLinks>
         <categoryLink id="uxxGgsTzK50niEjF-oKx9I2d2v5J1C0Pu-jecvCJLqmPWLSufT-nrLea037SHG3nhEv" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6d7f-a70b-b543-dd25" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5761-d499-b04b-d87d" name="Apothecary Biologis" hidden="false" collective="false" import="true" targetId="42Xa-725o-QIcR-zELx" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="74f4-3b17-b392-4753" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="55.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6620-a318-01f2-01f8" name="Captain In Gravis Armour" hidden="false" collective="false" import="true" targetId="Mc63-4lsR-k29E-VVwT" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="8611-55c4-1ac1-56bd" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="95.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="4bab-86df-7f89-1e54" name="3 models" hidden="false" collective="false" import="true" targetId="l8hJ-y1hB-hntj-obpi" type="selectionEntry"/>
       </entryLinks>
@@ -467,6 +604,28 @@
       <categoryLinks>
         <categoryLink id="DcCpm7CbYyJ9XWNX-NY4RDgWTSveV6whu-rspQI1Bw1XU3KhRB-oI92JOid81CdpaSh" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d5a9-f5c8-c846-fe38" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e989-201a-967b-8e02" name="Apothecary Biologis" hidden="false" collective="false" import="true" targetId="42Xa-725o-QIcR-zELx" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="6396-9a3d-41ad-19d6" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="55.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3ae4-c701-f852-92b2" name="Captain In Gravis Armour" hidden="false" collective="false" import="true" targetId="Mc63-4lsR-k29E-VVwT" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="1377-62f7-2f49-a72a" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="95.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="55a0-7059-6067-dbbb" name="5 models" hidden="false" collective="false" import="true" targetId="h1Iw-8SN6-8lex-6d5j" type="selectionEntry"/>
       </entryLinks>
@@ -475,6 +634,26 @@
       <categoryLinks>
         <categoryLink id="ZFnVHFt4FfbGlMpJ-DI8qgiQ9gRwGZBVC-bAfsHCD0OmL253cv-R7zPaUQQlLbrIifV" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ca1b-167d-0c9a-0084" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="2196-adfc-2df8-e06a" name="Primaris Apothecary" hidden="false" collective="false" import="true" targetId="0YWJ-quul-XEcT-dT5M" type="selectionEntry"/>
+            <entryLink id="da06-1891-b763-c7bf" name="Primaris Lieutenant" hidden="false" collective="false" import="true" targetId="k93W-WBoa-FF7V-NmUX" type="selectionEntry"/>
+            <entryLink id="e565-32c6-88eb-db27" name="Primaris Librarian" hidden="false" collective="false" import="true" targetId="wK9P-zkEx-nzjb-jqTN" type="selectionEntry"/>
+            <entryLink id="05eb-69bb-4107-d35f" name="Primaris Chaplain" hidden="false" collective="false" import="true" targetId="UPFw-Sa8s-3kbL-9F26" type="selectionEntry"/>
+            <entryLink id="75da-eb8f-a5d5-2f7c" name="Primaris Captain" hidden="false" collective="false" import="true" targetId="ftX8-6MVD-FWQS-zbHK" type="selectionEntry">
+              <entryLinks>
+                <entryLink id="4da4-e971-edbf-1734" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="CK17-FL62-MF66-YD21" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="1dd5-49eb-e126-dcea" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </entryLink>
+            <entryLink id="dc67-3c65-fd73-b402" name="Primaris Ancient" hidden="false" collective="false" import="true" targetId="luzB-coNt-iqfA-YfAY" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="477c-690d-17dc-ca24" name="5 models" hidden="false" collective="false" import="true" targetId="wIST-7wao-LyxW-ugAJ" type="selectionEntry"/>
       </entryLinks>
@@ -507,6 +686,15 @@
       <categoryLinks>
         <categoryLink id="Vwl5hgStaJSg0AUn-lHsYLelLyXlS2GE8-8SinP79A70HibHfH-jeBnGv8lnSV2IbFg" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="885f-33f2-e6d8-26e0" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="48eb-b863-4e64-e1dc" name="Lieutenant In Phobos Armour" hidden="false" collective="false" import="true" targetId="Qub7-fJDM-59Rn-ipEj" type="selectionEntry"/>
+            <entryLink id="d9be-206a-39f6-6e89" name="Captain In Phobos Armour" hidden="false" collective="false" import="true" targetId="g9ti-a7OC-jA4D-5ZcP" type="selectionEntry"/>
+            <entryLink id="07a7-3b5c-b579-1653" name="Librarian In Phobos Armour" hidden="false" collective="false" import="true" targetId="ffir-m7d4-wETa-8nyi" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="6837-3cd1-cded-eb8e" name="5 models" hidden="false" collective="false" import="true" targetId="gNij-9FdX-AcC0-m9Nw" type="selectionEntry"/>
       </entryLinks>
@@ -515,6 +703,22 @@
       <categoryLinks>
         <categoryLink id="AF8BtcmJI8K3ybyV-UMOE0XkhGi4MCFG8-mE1AIDhPC1i6gOZQ-VaYMOMCO6Thldurd" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="06de-dffe-9ca3-c4e8" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="a5de-7369-ef5f-6289" name="Librarian In Phobos Armour" hidden="false" collective="false" import="true" targetId="ffir-m7d4-wETa-8nyi" type="selectionEntry"/>
+            <entryLink id="f555-9a03-ef61-24db" name="Captain In Phobos Armour" hidden="false" collective="false" import="true" targetId="g9ti-a7OC-jA4D-5ZcP" type="selectionEntry"/>
+            <entryLink id="c2de-8874-c8ec-4516" name="Primaris Techmarine" hidden="false" collective="false" import="true" targetId="xKz0-DMNY-IvHu-wKpG" type="selectionEntry"/>
+            <entryLink id="0c79-a722-480e-7192" name="Primaris Lieutenant" hidden="false" collective="false" import="true" targetId="k93W-WBoa-FF7V-NmUX" type="selectionEntry"/>
+            <entryLink id="08f2-7395-0a9e-c048" name="Primaris Librarian" hidden="false" collective="false" import="true" targetId="wK9P-zkEx-nzjb-jqTN" type="selectionEntry"/>
+            <entryLink id="6f32-5085-e3d0-d00c" name="Judiciar" hidden="false" collective="false" import="true" targetId="OBqI-UxIK-COyw-fS5g" type="selectionEntry"/>
+            <entryLink id="96ba-a982-7514-85c9" name="Primaris Company Champion" hidden="false" collective="false" import="true" targetId="rCAZ-56fO-tCqP-rFSC" type="selectionEntry"/>
+            <entryLink id="efa1-9f04-6363-b756" name="Primaris Chaplain" hidden="false" collective="false" import="true" targetId="UPFw-Sa8s-3kbL-9F26" type="selectionEntry"/>
+            <entryLink id="d3d3-8a94-13a4-ff32" name="Primaris Captain" hidden="false" collective="false" import="true" targetId="ftX8-6MVD-FWQS-zbHK" type="selectionEntry"/>
+            <entryLink id="8c08-963d-2543-7378" name="Primaris Ancient" hidden="false" collective="false" import="true" targetId="luzB-coNt-iqfA-YfAY" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7e73-cb83-6f69-6197" name="5 models" hidden="false" collective="false" import="true" targetId="Lu94-1emh-mSph-6pJk" type="selectionEntry"/>
       </entryLinks>
@@ -523,6 +727,13 @@
       <categoryLinks>
         <categoryLink id="yB1ALmENKJK6dBdl-exMG1qDZrXCmwFF0-NdQmF3JKeBXEBtYB-Y8uLcf3RDu6TSxo5" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5114-ea9e-cd9b-da2c" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="b694-5a38-1b61-3dc9" name="Lieutenant In Phobos Armour" hidden="false" collective="false" import="true" targetId="Qub7-fJDM-59Rn-ipEj" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="b4da-c464-818f-3c16" name="5 models" hidden="false" collective="false" import="true" targetId="m9y7-IDTl-3aIn-hpg6" type="selectionEntry"/>
       </entryLinks>
@@ -531,6 +742,22 @@
       <categoryLinks>
         <categoryLink id="5ItpiXLRxQi6mNIV-9Pw0AqLXvdBOZetT-B68XhCktOtY18uir-GQhukbtt1zoswtYJ" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7d62-0920-f4cc-6359" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="2f2b-db50-dae2-e93b" name="Primaris Apothecary" hidden="false" collective="false" import="true" targetId="0YWJ-quul-XEcT-dT5M" type="selectionEntry"/>
+            <entryLink id="469b-4eac-02fd-a8e0" name="Chief Librarian Mephiston" hidden="false" collective="false" import="true" targetId="mjeY-KHLt-uk7c-av5f" type="selectionEntry"/>
+            <entryLink id="bff1-4835-12bb-9895" name="Primaris Techmarine" hidden="false" collective="false" import="true" targetId="xKz0-DMNY-IvHu-wKpG" type="selectionEntry"/>
+            <entryLink id="cb9b-af1c-3b24-1ee6" name="Primaris Lieutenant" hidden="false" collective="false" import="true" targetId="k93W-WBoa-FF7V-NmUX" type="selectionEntry"/>
+            <entryLink id="7b47-4af1-1269-03d1" name="Primaris Librarian" hidden="false" collective="false" import="true" targetId="wK9P-zkEx-nzjb-jqTN" type="selectionEntry"/>
+            <entryLink id="384c-3b33-f3c1-e119" name="Judiciar" hidden="false" collective="false" import="true" targetId="OBqI-UxIK-COyw-fS5g" type="selectionEntry"/>
+            <entryLink id="2a9d-d633-e50e-91c4" name="Primaris Company Champion" hidden="false" collective="false" import="true" targetId="rCAZ-56fO-tCqP-rFSC" type="selectionEntry"/>
+            <entryLink id="d03b-4e17-c46a-1095" name="Primaris Chaplain" hidden="false" collective="false" import="true" targetId="UPFw-Sa8s-3kbL-9F26" type="selectionEntry"/>
+            <entryLink id="087d-1710-f3b2-b9a4" name="Primaris Captain" hidden="false" collective="false" import="true" targetId="ftX8-6MVD-FWQS-zbHK" type="selectionEntry"/>
+            <entryLink id="7782-83a9-e315-b741" name="Primaris Ancient" hidden="false" collective="false" import="true" targetId="luzB-coNt-iqfA-YfAY" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="d4be-0a2a-3e7a-96d1" name="5 models" hidden="false" collective="false" import="true" targetId="nUIQ-zqUC-7too-WPg5" type="selectionEntry"/>
       </entryLinks>
@@ -707,6 +934,14 @@
       <categoryLinks>
         <categoryLink id="0t8P0Yow1hHQj4VK-zmBMEwNfpxL2VESf-QMEKJHfvJd6iokrk-2RWy8t1Lcoy7oJIP" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7b1b-9c89-0925-8ce0" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="3709-0e92-b538-6663" name="Captain On Bike" hidden="false" collective="false" import="true" targetId="nNvf-Bp57-igzC-Od9k" type="selectionEntry"/>
+            <entryLink id="7c52-5c0b-5a9e-7502" name="Chaplain On Bike" hidden="false" collective="false" import="true" targetId="4Xr8-dUBd-zA4L-t9w9" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="9e3d-63c7-8553-7ec1" name="Outrider Squad, 3 Models" hidden="false" collective="false" import="true" targetId="jcsy-i6no-ydjh-pZQo" type="selectionEntry"/>
         <entryLink id="c73c-785a-b34f-c73c" name="Invader Atv" hidden="false" collective="false" import="true" targetId="irRt-S6l4-oiCR-MINI" type="selectionEntry"/>
@@ -812,6 +1047,16 @@
       <categoryLinks>
         <categoryLink id="q1pjjfnhS3RpYurK-LtKRAOCbICmJSzCi-7sFLhHBBBqwQS27b-CVNB2Pj8jZtri41I" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c775-071a-1d61-5f3d" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="b34b-5db6-a123-efd1" name="Lieutenant In Reiver Armour" hidden="false" collective="false" import="true" targetId="pdDH-ws0n-ZM7N-Qdev" type="selectionEntry"/>
+            <entryLink id="af04-df3c-ba55-74a3" name="Lieutenant In Phobos Armour" hidden="false" collective="false" import="true" targetId="Qub7-fJDM-59Rn-ipEj" type="selectionEntry"/>
+            <entryLink id="1968-65ed-2991-c9ad" name="Captain In Phobos Armour" hidden="false" collective="false" import="true" targetId="g9ti-a7OC-jA4D-5ZcP" type="selectionEntry"/>
+            <entryLink id="fea0-5aa4-691d-67e5" name="Librarian In Phobos Armour" hidden="false" collective="false" import="true" targetId="ffir-m7d4-wETa-8nyi" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="04a9-696d-603a-d650" name="5 models" hidden="false" collective="false" import="true" targetId="iRJO-v9nh-d5oQ-FxRw" type="selectionEntry"/>
       </entryLinks>
@@ -820,6 +1065,16 @@
       <categoryLinks>
         <categoryLink id="EAHWaPWFROcyBUbr-zfJZlwBssZMc5Dyl-jdlCdd6saUSrnx0g-9awuOqj8AvpSnMNf" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2e08-cb46-c5d8-409c" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="f308-3bd3-a6b8-acac" name="Librarian In Terminator Armour" hidden="false" collective="false" import="true" targetId="qg5N-hkJ5-5Zku-7fHK" type="selectionEntry"/>
+            <entryLink id="08c6-6f0d-dc53-a0d6" name="Chaplain In Terminator Armour" hidden="false" collective="false" import="true" targetId="YT4s-C2J4-0K26-ZR6W" type="selectionEntry"/>
+            <entryLink id="ee9e-b608-f1ee-1082" name="Captain In Terminator Armour" hidden="false" collective="false" import="true" targetId="Hq5u-GVdX-AOol-MtmN" type="selectionEntry"/>
+            <entryLink id="ebbb-4a10-fa08-8891" name="Ancient In Terminator Armour" hidden="false" collective="false" import="true" targetId="KbxK-2LjU-NhcZ-68ut" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="0301-77de-1a7b-5b94" name="5 models" hidden="false" collective="false" import="true" targetId="2oGD-zNIz-mj5U-GmT6" type="selectionEntry"/>
       </entryLinks>
@@ -852,6 +1107,14 @@
       <categoryLinks>
         <categoryLink id="2gAamVoNocgdrFeM-Gwntxk2bmbl0bWit-egM2ZqxdLjQq0AFu-QTK6LldWgNg5Wrpr" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f517-a136-af86-b0e9" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="a959-40e9-e314-c220" name="Captain With Jump Pack" hidden="false" collective="false" import="true" targetId="AXyG-mGAe-z2SW-mqdV" type="selectionEntry"/>
+            <entryLink id="d35f-6904-2803-b530" name="Commander Dante" hidden="false" collective="false" import="true" targetId="b7Wy-lj87-oUEB-sqmt" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="5dc8-f764-c28c-62c3" name="Sanguinary Guard, 5 Models" hidden="false" collective="false" import="true" targetId="Qa0V-5ygk-bIQU-GN8X" type="selectionEntry"/>
       </entryLinks>
@@ -884,6 +1147,13 @@
       <categoryLinks>
         <categoryLink id="7giESN60tzOQx05Z-T3GJek1DU71w25nB-zjOeUBVlKxUzlPRz-BK2xyTtcYqYhquSg" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f5cf-d113-a2ea-bcb6" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e73f-7bef-56aa-4d77" name="Captain In Phobos Armour" hidden="false" collective="false" import="true" targetId="g9ti-a7OC-jA4D-5ZcP" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1703-59ab-86e1-590c" name="5 models" hidden="false" collective="false" import="true" targetId="JhO4-PCtF-F5c3-hzrj" type="selectionEntry"/>
       </entryLinks>
@@ -892,6 +1162,13 @@
       <categoryLinks>
         <categoryLink id="4PSsH4DImw7rZktE-m1PML3wf78L0vmch-lJr05F8UP6di41l2-b1Zidfxr6Mf2n8W7" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b3c0-bca4-bdfa-60f6" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="fccb-5500-fbef-e9c4" name="Captain In Phobos Armour" hidden="false" collective="false" import="true" targetId="g9ti-a7OC-jA4D-5ZcP" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7a11-6b64-325c-2d62" name="Scout Squad, 5 Models" hidden="false" collective="false" import="true" targetId="orcE-PQTs-XWn6-5XN4" type="selectionEntry"/>
       </entryLinks>
@@ -908,6 +1185,21 @@
       <categoryLinks>
         <categoryLink id="si7vpF4pfMqjemCw-cHOocN28VLDGSrqK-hLUU1uPXlG3pZYis-90Fh701vCfcL4225" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0c09-19e9-d66b-c74b" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="783b-9fe8-7989-7fa3" name="Primaris Apothecary" hidden="false" collective="false" import="true" targetId="0YWJ-quul-XEcT-dT5M" type="selectionEntry"/>
+            <entryLink id="e367-06bb-4e68-cf00" name="Chief Librarian Mephiston" hidden="false" collective="false" import="true" targetId="mjeY-KHLt-uk7c-av5f" type="selectionEntry"/>
+            <entryLink id="1c6d-a352-823d-7815" name="Primaris Lieutenant" hidden="false" collective="false" import="true" targetId="k93W-WBoa-FF7V-NmUX" type="selectionEntry"/>
+            <entryLink id="553b-e566-7d0e-e67d" name="Primaris Librarian" hidden="false" collective="false" import="true" targetId="wK9P-zkEx-nzjb-jqTN" type="selectionEntry"/>
+            <entryLink id="da11-5832-a70d-1dec" name="Judiciar" hidden="false" collective="false" import="true" targetId="OBqI-UxIK-COyw-fS5g" type="selectionEntry"/>
+            <entryLink id="ffe9-2ed1-43b6-634b" name="Primaris Company Champion" hidden="false" collective="false" import="true" targetId="rCAZ-56fO-tCqP-rFSC" type="selectionEntry"/>
+            <entryLink id="fc61-0b28-3a5d-6732" name="Primaris Chaplain" hidden="false" collective="false" import="true" targetId="UPFw-Sa8s-3kbL-9F26" type="selectionEntry"/>
+            <entryLink id="8b76-2a96-6eb0-abdb" name="Primaris Captain" hidden="false" collective="false" import="true" targetId="ftX8-6MVD-FWQS-zbHK" type="selectionEntry"/>
+            <entryLink id="d01e-c0d0-d1bd-db6e" name="Primaris Ancient" hidden="false" collective="false" import="true" targetId="luzB-coNt-iqfA-YfAY" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="a156-3ef5-7dc6-d4ce" name="5 models" hidden="false" collective="false" import="true" targetId="P3OB-wqRA-bj0W-ccnj" type="selectionEntry"/>
       </entryLinks>
@@ -972,6 +1264,21 @@
       <categoryLinks>
         <categoryLink id="rbBqJpZMaBuEYXDC-1mebkGoKWF2bgfns-HVxZByart9LLLoAq-rJIpTgoE9dbFu5So" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5e5b-cabc-586a-c41c" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="77d7-4f2e-940b-a47b" name="Brother Corbulo" hidden="false" collective="false" import="true" targetId="2xpA-sJkd-n3mQ-ZXaM" type="selectionEntry"/>
+            <entryLink id="1215-032b-fd63-ff7b" name="Captain Tycho" hidden="false" collective="false" import="true" targetId="zFXv-zNnZ-Aypo-J6sJ" type="selectionEntry"/>
+            <entryLink id="db63-ad56-245e-d2f4" name="Gabriel Seth" hidden="false" collective="false" import="true" targetId="oNPm-JisE-rzy8-DtkK" type="selectionEntry"/>
+            <entryLink id="65aa-20ef-647a-f67e" name="Sanguinary Priest" hidden="false" collective="false" import="true" targetId="EuOo-W4Ni-wlhD-77qQ" type="selectionEntry"/>
+            <entryLink id="247d-6146-c549-8954" name="Captain" hidden="false" collective="false" import="true" targetId="IyQm-6d6C-5ekK-GAhW" type="selectionEntry"/>
+            <entryLink id="da08-2613-6312-899e" name="Chaplain" hidden="false" collective="false" import="true" targetId="wVD7-ZUys-17Kd-hO9N" type="selectionEntry"/>
+            <entryLink id="1b1b-af6d-03a8-1ebd" name="Librarian" hidden="false" collective="false" import="true" targetId="J7e3-FIZE-LiCP-duUR" type="selectionEntry"/>
+            <entryLink id="6a7f-8965-e210-b1fa" name="Lieutenant" hidden="false" collective="false" import="true" targetId="fmlf-dVua-BInD-DZ4R" type="selectionEntry"/>
+            <entryLink id="0036-0646-f5be-907c" name="Techmarine" hidden="false" collective="false" import="true" targetId="Ytcg-F9M0-XV6C-7NoD" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="175.0"/>
       </costs>
@@ -1036,6 +1343,20 @@
       <categoryLinks>
         <categoryLink id="XQnpSc5LBEbxvVE6-LTfGXdE350FN1zaF-tX6qRzQOGNdbNecR-7xzXl4ps9kQW1pLd" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7573-44e9-2d18-db7a" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="0914-e505-7803-dfea" name="Brother Corbulo" hidden="false" collective="false" import="true" targetId="2xpA-sJkd-n3mQ-ZXaM" type="selectionEntry"/>
+            <entryLink id="fddc-8fe5-a38e-3248" name="Captain Tycho" hidden="false" collective="false" import="true" targetId="zFXv-zNnZ-Aypo-J6sJ" type="selectionEntry"/>
+            <entryLink id="2241-16cd-0cd8-c52a" name="Gabriel Seth" hidden="false" collective="false" import="true" targetId="oNPm-JisE-rzy8-DtkK" type="selectionEntry"/>
+            <entryLink id="0534-9c08-0bf7-8ed9" name="Sanguinary Priest" hidden="false" collective="false" import="true" targetId="EuOo-W4Ni-wlhD-77qQ" type="selectionEntry"/>
+            <entryLink id="ca98-6dfb-b18a-a335" name="Captain" hidden="false" collective="false" import="true" targetId="IyQm-6d6C-5ekK-GAhW" type="selectionEntry"/>
+            <entryLink id="48cf-772c-67dd-1fea" name="Chaplain" hidden="false" collective="false" import="true" targetId="wVD7-ZUys-17Kd-hO9N" type="selectionEntry"/>
+            <entryLink id="d5c9-5948-2c2c-21a4" name="Librarian" hidden="false" collective="false" import="true" targetId="J7e3-FIZE-LiCP-duUR" type="selectionEntry"/>
+            <entryLink id="60b4-05b1-2b41-ae3b" name="Lieutenant" hidden="false" collective="false" import="true" targetId="fmlf-dVua-BInD-DZ4R" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="4d6a-b797-36fe-7957" name="5 models" hidden="false" collective="false" import="true" targetId="v4mk-d0Fj-0Q0r-kP0Z" type="selectionEntry"/>
       </entryLinks>
@@ -1044,6 +1365,17 @@
       <categoryLinks>
         <categoryLink id="ezsbuEjbSH3a9iTU-0LpXfIsim1IeWoF0-scHwVZQbHocChFaH-84Dd4UJZcZqavVzy" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b924-b17f-e06e-6d14" name="Leader" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="9fd0-f3cd-16c3-f709" name="Sanguinary Priest With Jump Pack" hidden="false" collective="false" import="true" targetId="kEUR-Xfvz-IYal-FfTs" type="selectionEntry"/>
+            <entryLink id="fdd0-93ac-6a50-2750" name="Captain With Jump Pack" hidden="false" collective="false" import="true" targetId="AXyG-mGAe-z2SW-mqdV" type="selectionEntry"/>
+            <entryLink id="055a-d04d-cd5f-8b6e" name="Chaplain With Jump Pack" hidden="false" collective="false" import="true" targetId="FPpl-QQni-qsqh-RbmM" type="selectionEntry"/>
+            <entryLink id="c933-ddd7-9c06-15f5" name="Librarian With Jump Pack" hidden="false" collective="false" import="true" targetId="pE1e-PA26-54id-TS82" type="selectionEntry"/>
+            <entryLink id="f116-6dfc-1dde-a66f" name="Commander Dante" hidden="false" collective="false" import="true" targetId="b7Wy-lj87-oUEB-sqmt" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="9a26-a6a9-d668-ee0a" name="5 models" hidden="false" collective="false" import="true" targetId="b4L1-lJzv-tJ2m-AvYl" type="selectionEntry"/>
       </entryLinks>
@@ -1087,6 +1419,18 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="IJ8V-xw4B-jcA1-PBeo" name="Aggressor Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="36ca-6f00-7fd1-f1f2" name="Aggressor Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1107,11 +1451,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="hrcc-Mk0B-tVF8-His1" name="Ancient In Terminator Armour, 1 Model" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="680f-7a20-28c0-9084" name="Ancient in Terminator Armour" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="42Xa-725o-QIcR-zELx" name="Apothecary Biologis" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b481-1a4b-403b-a04a" name="Apothecary Biologis" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1132,16 +1500,52 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="QzVB-gfMC-kzRA-KM1F" name="Assault Intercessor Squad, 5 Models" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="80a7-38a2-c878-d7ff" name="Assault Intercessor Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="90.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="HL2f-7drW-qtV6-xuqe" name="Assault Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="85b8-d78c-1214-bd89" name="Assault Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="iu5I-eZpf-SES5-l0eh" name="Assault Squad With Jump Packs" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="46c1-c150-cf6d-f4fb" name="Assault Squad with Jump Packs" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1167,6 +1571,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="hV7U-rE0P-KPGk-TqNy" name="Astartes Servitors" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1c2f-3098-bdbb-7f0f" name="Astartes Servitors" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1177,6 +1593,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Q0dD-K9Kj-uK9Z-HEtN" name="Astorath" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c758-8b78-7aaa-cb6c" name="Astorath" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1192,6 +1620,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="oARF-FjJz-WppH-ZK8g" name="Attack Bike Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="229d-b18e-a77b-8567" name="Attack Bike Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1212,6 +1652,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="tplU-QapT-qHbM-PrVW" name="Baal Predator" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f62c-c018-3ca1-d52c" name="Baal Predator" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">10</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">11</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1222,6 +1674,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="IkrT-dwuI-ndxO-INCV" name="Ballistus Dreadnought" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="86ea-eec7-2cab-16d6" name="Ballistus Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1232,6 +1696,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2c4F-EjNs-xfcZ-aHJV" name="Bike Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f779-6189-ae21-b06a" name="Bike Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1247,6 +1723,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="5KPM-c2x8-anrh-JyBM" name="Bladeguard Ancient" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c795-2b0a-9e39-e9ed" name="Bladeguard Ancient" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1257,6 +1745,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="N8B6-vTCN-YOXt-Ab2G" name="Bladeguard Veteran Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e775-8250-7fcd-0986" name="Bladeguard Veteran Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1272,6 +1772,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2xpA-sJkd-n3mQ-ZXaM" name="Brother Corbulo" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8241-166f-0d03-f1ad" name="Brother Corbulo" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">4</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1282,6 +1794,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="AO6A-H4vU-zhbO-ztfN" name="Brutalis Dreadnought" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d7f0-07a9-0eea-92d9" name="Brutalis Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1297,6 +1821,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Mc63-4lsR-k29E-VVwT" name="Captain In Gravis Armour" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="be46-4e8c-6569-d6ed" name="Captain in Gravis Armour" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1307,6 +1843,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="g9ti-a7OC-jA4D-5ZcP" name="Captain In Phobos Armour" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3f81-379d-9004-3869" name="Captain in Phobos Armour" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1317,6 +1865,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Hq5u-GVdX-AOol-MtmN" name="Captain In Terminator Armour" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a7a3-09be-8003-1569" name="Captain in Terminator Armour" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1327,6 +1887,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="nNvf-Bp57-igzC-Od9k" name="Captain On Bike" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a1f7-5fc4-5364-1d88" name="Captain On Bike" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1337,6 +1909,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="zFXv-zNnZ-Aypo-J6sJ" name="Captain Tycho" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8a1e-adb7-0112-22ea" name="Captain Tycho" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">5</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1347,6 +1931,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="AXyG-mGAe-z2SW-mqdV" name="Captain With Jump Pack" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="62bf-a880-6b3d-6bb2" name="Captain with Jump Pack" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1357,11 +1953,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Lqi8-eTRK-FGDc-RKOS" name="Captain, 1 Model" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="efb1-112f-435a-5a54" name="Captain" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="wWrh-PtN3-oR4i-efct" name="Centurion Assault Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0fab-2ebf-a6aa-d17f" name="Centurion Assault Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1377,6 +1997,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Dhht-yN2l-YsU9-oZCx" name="Centurion Devastator Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3e23-f92c-4aa0-7a4d" name="Centurion Devastator Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1392,11 +2024,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="wVD7-ZUys-17Kd-hO9N" name="Chaplain" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="decf-7915-eeb8-24d3" name="Chaplain" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="YT4s-C2J4-0K26-ZR6W" name="Chaplain In Terminator Armour" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="460e-6f4a-c5ac-d0d2" name="Chaplain in Terminator Armour" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1407,6 +2063,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4Xr8-dUBd-zA4L-t9w9" name="Chaplain On Bike" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a1cc-495d-9202-5545" name="Chaplain on Bike" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1417,6 +2085,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="FPpl-QQni-qsqh-RbmM" name="Chaplain With Jump Pack" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="167f-5349-2135-9778" name="Chaplain with Jump Pack" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1432,6 +2112,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="mjeY-KHLt-uk7c-av5f" name="Chief Librarian Mephiston" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="37ba-dd50-6d37-4758" name="Chief Librarian Mephiston" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">7</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">5</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">6</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1452,6 +2144,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Sreo-fJbx-CT6H-OVek" name="Command Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5397-197a-9f1f-edbb" name="Command Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1462,6 +2166,62 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b7Wy-lj87-oUEB-sqmt" name="Commander Dante" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="817e-2e39-16d4-1bc5" name="Death Mask of Sanguinius" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">At the start of the Fight phase, each enemy unit within 6&quot; of this model must take a Battle-shock test, subtracting 1 from that test when they do.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9220-2fa8-c2e8-b6d4" name="Invlunerable Save" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="764c-5cdd-ffc4-f136" name="Lord Regent of the Imperium Nihilus" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">While this model is leading a unit, add 1 to Charge rolls made for that unit and each time a model in that unit makes an attack, add 1 to the Hit roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="fa2a-9f2b-e68f-3baa" name="Perdition" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="8955-beeb-adf1-f619">6</characteristic>
+            <characteristic name="A" typeId="1873-f632-0b12-bd7a">1</characteristic>
+            <characteristic name="BS" typeId="327b-0f44-3b33-d89e">5</characteristic>
+            <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
+            <characteristic name="S" typeId="9a4c-f516-2825-0fea">8</characteristic>
+            <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">4</characteristic>
+            <characteristic name="D" typeId="f17f-4510-0ce9-db28">D6</characteristic>
+            <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Melta 2, Pistol, Sustained Hits D3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d3e8-5d0d-b5ed-9148" name="The Axe Mortalis" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
+            <characteristic name="A" typeId="1873-f632-0b12-bd7a">8</characteristic>
+            <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
+            <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">2</characteristic>
+            <characteristic name="S" typeId="9a4c-f516-2825-0fea">7</characteristic>
+            <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">3</characteristic>
+            <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
+            <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Lethal Hits</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9e69-5f6c-ffb3-e9e6" name="Commander Dante" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">6</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5fbe-ef33-c875-a883" name="Deep Strike" hidden="false" targetId="fa05-b9a3-0573-e3cb" type="rule"/>
+        <infoLink id="a701-ce7b-aac4-a999" name="Leader" hidden="false" targetId="d0db-b100-0ea0-1e3d" type="rule"/>
+        <infoLink id="a02e-156a-5d67-8385" name="Oath of Moment" hidden="false" targetId="80c7-b138-11bb-fcc3" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1472,6 +2232,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="GrVN-LkZg-GBay-qgZe" name="Contemptor Dreadnought" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="285c-3f97-8898-07f3" name="Contemptor Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1492,6 +2264,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="v9EZ-JAMo-eYAK-ioK1" name="Death Company Dreadnought" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="ef7c-c092-bce5-0e5e" name="Death Company Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">8</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">9</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">8</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1502,6 +2286,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Nczg-2E2I-QxeI-fSro" name="Death Company Intercessors" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="97f9-c932-bde8-9412" name="Death Company Intercessors" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">2</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1517,11 +2313,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Cerp-fHjN-d4Nh-EVna" name="Death Company Marines" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2e57-6776-50f8-561b" name="Death Company Marines" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">2</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="EDoo-ECW4-Oaxd-RDBm" name="Death Company Marines With Jump Packs" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e1d6-5fdc-7dcb-4d43" name="Death Company Marines with Jump Packs" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">2</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1547,6 +2367,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="jbVU-qbuX-Y9MU-xnXW" name="Desolation Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4657-07e2-4b03-b66c" name="Desolation Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1562,6 +2394,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="cYoc-qY2R-8Awb-Ldbb" name="Devastator Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8f62-bcfa-c71a-c113" name="Devastator Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1577,6 +2421,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="qIX6-cpcg-Mxjn-mu82" name="Dreadnought" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="66c2-3ed9-bcc5-b870" name="Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1587,6 +2443,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8YGR-xPUP-CaEo-mCYB" name="Drop Pod" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9296-b979-4e8a-4d5c" name="Drop Pod" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1597,6 +2465,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="oc2A-FSxw-1cG7-NTox" name="Eliminator Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9884-d848-9bcd-05a5" name="Eliminator Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1607,6 +2487,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ytZe-186y-TtDn-QyiR" name="Eradicator Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cdd5-ead0-d96d-8737" name="Eradicator Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1622,6 +2514,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0Zpg-XMfh-n4xj-XUxQ" name="Firestrike Servoturrets" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6cf7-902c-051d-11bf" name="Firestrike Servo-turrets" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1637,6 +2541,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="AlkW-lp0U-uE0S-v7Wc" name="Furioso Dreadnought" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3960-e524-2e63-7f14" name="Furioso Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">9</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">8</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1647,6 +2563,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="oNPm-JisE-rzy8-DtkK" name="Gabriel Seth" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="db49-9e5d-19a7-8a37" name="Gabriel Seth" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">6</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1657,6 +2585,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Jx2t-VDyw-XkVk-SsFL" name="Gladiator Lancer" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4127-8dd1-f658-2314" name="Gladiator Lancer" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1667,6 +2607,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="LoWJ-mwoY-BLDM-tqHZ" name="Gladiator Reaper" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4a0e-2f97-5bd0-b830" name="Gladiator Reaper" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1677,6 +2629,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ccyZ-pYxe-lUzS-qciQ" name="Gladiator Valiant" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="45e1-e960-9107-1f53" name="Gladiator Valliant" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1687,6 +2651,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ffVb-181U-Tby7-JOXN" name="Hammerfall Bunker" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="de4a-2d7a-c031-8fa1" name="Hammerfall Bunker" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1697,6 +2673,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="wLB9-8xjl-YxLt-9F27" name="Heavy Intercessor Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="de44-1f56-a6a5-7ada" name="Heavy Intercessor Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1712,6 +2700,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="hXEq-u8AI-0DTx-mz88" name="Hellblaster Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6c8c-f74f-4e9c-9710" name="Hellblaster Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1727,6 +2727,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="MKDt-AJyl-lZgo-EJdf" name="Hunter" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8a34-33f5-bd71-fcf9" name="Hunter" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1737,6 +2749,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="FqGT-MBhH-IJ26-oHE7" name="Impulsor" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="bf13-9dda-9b05-fb7b" name="Impulsor" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1747,6 +2771,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Qp1W-m3nT-yjaQ-BS94" name="Inceptor Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d8fa-5692-32b9-bf16" name="Inceptor Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1762,6 +2798,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="vIfo-XgQw-CHzX-DUut" name="Incursor Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4e2e-b8d4-71d3-fb99" name="Incursor Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1777,6 +2825,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="N0Z8-xyJ2-NK4q-RZce" name="Infernus Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6e6a-2a66-9fd2-4f88" name="Infernus Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1792,6 +2852,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="VtnE-5TXE-23px-81lR" name="Infiltrator Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="433d-684d-175f-04d2" name="Infiltrator Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1807,6 +2879,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="myo6-Kk0X-SWKV-EFRF" name="Intercessor Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="538d-b80d-606b-1398" name="Intercessor Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1822,11 +2906,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="irRt-S6l4-oiCR-MINI" name="Invader Atv" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="494e-c9c9-246d-a269" name="Invader ATV" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="XSNS-DMaS-MYRw-Ctit" name="Invader Atv" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c738-ed08-a65c-26c7" name="Invader ATV" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1837,6 +2945,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="waEo-esFP-idGK-Sm7E" name="Invictor Tactical Warsuit" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fae7-e28f-ba7a-9c55" name="Invictor Tactical Warsuit" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1847,6 +2967,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="xkDK-zUfj-vihX-OMl5" name="Ironclad Dreadnought" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1c55-238f-8b36-51eb" name="Ironclad Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1857,6 +2989,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="OBqI-UxIK-COyw-fS5g" name="Judiciar" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6db1-e448-1536-b325" name="Judiciar" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1867,11 +3011,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e4kt-GV2X-zCKC-40yA" name="Land Raider" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f51c-51f8-2487-1eb6" name="Land Raider" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="DPMQ-uugz-ZMti-h9rp" name="Land Raider Crusader" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="75a5-9493-8854-78f8" name="Land Raider Crusader" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1882,6 +3050,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1ngb-wnH1-sjB9-kljB" name="Land Raider Redeemer" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d40f-25c1-73de-f8a8" name="Land Raider Redeemer" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1897,11 +3077,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Ri2h-Hmy9-V7vm-X3Vb" name="Land Speeder" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f787-ab5d-0d66-04a4" name="Land Speeder" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1wdn-PXgp-gybV-D4CT" name="Land Speeder Storm" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="386b-0b12-f04b-3710" name="Land Speeder Storm" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1912,6 +3116,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="taVr-gxuV-7xg6-l4Tb" name="Land Speeder Tornado" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="869e-3d3c-89af-d6cd" name="Land Speeder Tornado" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1922,6 +3138,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="1yaT-2T6C-fmQ9-uQJj" name="Land Speeder Typhoon" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="fdde-e7d3-dc81-aa32" name="Land Speeder Typhoon" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1937,6 +3165,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="eHlb-Ud45-gvS1-Jhby" name="Lemartes" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d5da-76c4-dda5-6e2a" name="Lemartes" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">4</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">5</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1947,11 +3187,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="J7e3-FIZE-LiCP-duUR" name="Librarian" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d49a-68fe-44cb-9579" name="Librarian" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="PD2u-b2DB-ZJ4c-VNE9" name="Librarian Dreadnought" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6891-9d20-6537-93ac" name="Librarian Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">9</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">8</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1962,6 +3226,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ffir-m7d4-wETa-8nyi" name="Librarian In Phobos Armour" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="540d-20cb-4052-5387" name="Librarian in Phobos Armour" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1972,6 +3248,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="qg5N-hkJ5-5Zku-7fHK" name="Librarian In Terminator Armour" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3b42-b3ef-3a4b-7c16" name="Librarian in Terminator Armour" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1982,6 +3270,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="pE1e-PA26-54id-TS82" name="Librarian With Jump Pack" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="af64-1cd0-49e4-4816" name="Librarian with Jump Pack" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1997,11 +3297,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fmlf-dVua-BInD-DZ4R" name="Lieutenant" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="efcc-6a26-82cc-5d3d" name="Lieutenant" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="Qub7-fJDM-59Rn-ipEj" name="Lieutenant In Phobos Armour" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9c08-7b7c-cd27-dd1b" name="Lieutenant in Phobos Armour" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2012,6 +3336,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="pdDH-ws0n-ZM7N-Qdev" name="Lieutenant In Reiver Armour" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4146-edf6-150e-b762" name="Lieutenant in Reiver Armour" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2022,6 +3358,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="XvbI-PPAv-BP9j-soR1" name="Lieutenant With Combiweapon" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="5a15-2d3d-7205-8a57" name="Lieutenant with Combi-weapon" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2036,17 +3384,19 @@
         <cost name="Points" typeId="4398-3629-920e-f774" value="80.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e70G-Qjnb-kMAq-FYuV" name="Marneus Calgar" hidden="false" collective="false" import="true" type="unit">
-      <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="cGyl-t7lM-OxBl-awbv" name="Marneus Calgar, 3 Models" hidden="false" collective="false" import="true" type="model">
-      <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="205.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="Ig1w-N1Sa-vEpM-kwRX" name="Outrider Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e2af-4f8a-f1d5-2bd9" name="Outrider Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2062,6 +3412,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="epCo-AxK1-Or10-DrIU" name="Predator Annihilator" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0447-fee6-5171-c9a3" name="Predator Annihilator" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2072,6 +3434,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="OJLn-NayT-7EsM-qeQW" name="Predator Destructor" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3e1e-4ecd-cf06-ac14" name="Predator Destructor" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2082,6 +3456,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="luzB-coNt-iqfA-YfAY" name="Primaris Ancient" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6b2e-7aef-a363-54cc" name="Primaris Ancient" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2092,6 +3478,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="0YWJ-quul-XEcT-dT5M" name="Primaris Apothecary" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="51a9-4c0d-abc6-7d5f" name="Primaris Apothecary" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2102,6 +3500,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ftX8-6MVD-FWQS-zbHK" name="Primaris Captain" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4624-48f6-892e-7323" name="Primaris Captain" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2112,6 +3522,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="UPFw-Sa8s-3kbL-9F26" name="Primaris Chaplain" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="41f8-15e7-7480-4779" name="Primaris Chaplain" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2122,6 +3544,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="rCAZ-56fO-tCqP-rFSC" name="Primaris Company Champion" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7a9e-0239-50b8-2037" name="Primaris Company Champion" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2132,6 +3566,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="wK9P-zkEx-nzjb-jqTN" name="Primaris Librarian" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a1a0-f570-032a-bece" name="Primaris Librarian" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2142,6 +3588,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="k93W-WBoa-FF7V-NmUX" name="Primaris Lieutenant" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0199-c810-c677-b59e" name="Primaris Lieutenant" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2152,6 +3610,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="xKz0-DMNY-IvHu-wKpG" name="Primaris Techmarine" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="67c6-d3b0-5524-1f33" name="Primaris Techmarine" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2162,6 +3632,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8u6J-8E9R-1xvy-Mn5Y" name="Razorback" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6231-c7a7-4d4c-69da" name="Razorback" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2172,6 +3654,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Dft4-yraX-SxLF-0a9G" name="Redemptor Dreadnought" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b39d-d5dc-c582-9865" name="Redemptor Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2182,6 +3676,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="A9gf-0H3L-y6pj-JRwH" name="Reiver Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cfa8-3c7e-7c94-66a8" name="Reiver Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2197,6 +3703,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2SA2-j1Dg-fxNd-pZdE" name="Relic Terminator Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c5bb-57e7-77ae-01af" name="Relic Terminator Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2212,11 +3730,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="uD5H-1OTa-cFwz-LV91" name="Repulsor" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b86f-7165-f60f-7151" name="Repulsor" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="MEDV-Xr9N-iIfg-1EO9" name="Repulsor Executioner" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0b61-bf56-e3a2-a675" name="Repulsor Executioner" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2232,6 +3774,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="WYAq-sLio-smmM-Q5ql" name="Rhino" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="faf3-b609-fe69-1fc6" name="Rhino" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2242,6 +3796,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="I9YE-rCHx-ytJA-o7rA" name="Sanguinary Guard" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cbbd-4119-fcb9-b060" name="Sanguinary Guard" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">2</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2257,11 +3823,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="EuOo-W4Ni-wlhD-77qQ" name="Sanguinary Priest" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="85e0-3384-2d31-7b64" name="Sanguinary Priest" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">4</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="kEUR-Xfvz-IYal-FfTs" name="Sanguinary Priest With Jump Pack" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d7f7-848b-39a4-25e9" name="Sanguinary Priest with Jump Pack" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">4</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2277,6 +3867,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="JydC-Wut6-ufne-ET41" name="Scout Bike Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b334-3a6b-a233-c191" name="Scout Bike Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2292,6 +3894,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="OcgD-hM9O-YDPr-g0WU" name="Scout Sniper Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0436-3d40-2494-5dac" name="Scout Sniper Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2307,6 +3921,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="g6lI-3B7t-dB2q-Hnj2" name="Scout Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="05ef-221a-2d22-49b0" name="Scout Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2322,6 +3948,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="noNi-ESl3-IpV8-q8QH" name="Stalker" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d38d-5ea9-ed35-948a" name="Stalker" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2332,6 +3970,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="nAjx-MnNB-5ahy-qVX0" name="Sternguard Veteran Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a922-5f5d-43fb-052e" name="Sternguard Veteran Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2347,6 +3997,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="sD2y-VLrC-THnK-P0Oq" name="Storm Speeder Hailstrike" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3df9-c451-08d6-22d2" name="Storm Speeder Hailstrike" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2357,6 +4019,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="aKBz-73ZE-jXyZ-v6jd" name="Storm Speeder Hammerstrike" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0505-e6d1-0be5-780a" name="Storm Speeder Hammerstrike" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2367,6 +4041,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="TMCf-GF6q-AxsJ-c5cr" name="Storm Speeder Thunderstrike" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d2f9-a369-14a3-ed75" name="Storm Speeder Thunderstrike" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2377,6 +4063,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Lcjl-ZENq-kDdL-UFhQ" name="Stormhawk Interceptor" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="41de-17b3-cdf5-2309" name="Stormhawk Interceptor" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2387,6 +4085,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ltkY-ClJG-QbxR-sfTG" name="Stormraven Gunship" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="73c6-3d4d-46d7-c026" name="Stormraven Gunship" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2397,6 +4107,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9358-LJIc-doKw-WbTi" name="Stormtalon Gunship" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b496-8db3-6cb1-b712" name="Stormtalon Gunship" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2407,6 +4129,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="9vVA-e22U-PZgi-5MxA" name="Suppressor Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0564-8c61-b132-e09e" name="Suppressor Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2417,6 +4151,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="B5jY-gCT7-gQFr-DEay" name="Tactical Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1d75-bf24-46b9-5454" name="Tactical Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2427,6 +4173,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Ytcg-F9M0-XV6C-7NoD" name="Techmarine" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a4ef-2e78-f50e-b16b" name="Techmarine" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2437,6 +4195,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Ghc3-ApNP-KETD-nTY8" name="Terminator Assault Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cf25-9388-41df-a8d5" name="Terminator Assault Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2452,6 +4222,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="VO0R-EhAw-RmY4-FWKU" name="Terminator Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6d0c-54df-5df1-8120" name="Terminator Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2467,6 +4249,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ZMfw-UrOC-eQ6g-uOKq" name="The Sanguinor" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f260-6690-a910-8ade" name="The Sanguinor" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">7</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2477,6 +4271,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="onNe-ldMk-T0tH-CrgS" name="Thunderfire Cannon" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="af66-f880-271d-c66d" name="Thunderfire Cannon" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2487,6 +4293,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="vZCe-gxnk-YBcr-5zP1" name="Tycho The Lost" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="76da-f8ad-ad16-2f70" name="Tycho the Lost" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">4</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2497,6 +4315,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="MWRL-hOoH-bJKk-ye7i" name="Tyrannic War Veterans" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="2a73-c037-58b0-aaf7" name="Tyrannic War Veterans" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2507,11 +4337,35 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="iu3h-thA0-dZPh-By4M" name="Vanguard Veteran Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0626-5d94-4d1d-d444" name="Vanguard Veteran Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ldNs-O3x3-XnW3-Pptr" name="Vanguard Veteran Squad With Jump Packs" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="54e2-94ac-268a-fe41" name="Vanguard Veteran Squad with Jump Packs" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2537,6 +4391,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="xuLo-hQph-I4at-L3yu" name="Vindicator" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="3ad9-e96a-cc65-546c" name="Vindicator" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2547,6 +4413,18 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="DO7S-ckp4-ClW0-mCeb" name="Whirlwind" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4112-214c-7cc3-fa1e" name="Whirlwind" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2586,220 +4464,6 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="SJ29-GB29-OU90-JA47" name="Astorath" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">5</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">5</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="AB21-UI74-EX52-BG25" name="Baal Predator" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">10</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">11</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">3</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="CE11-TO60-AU38-HN14" name="Brother Corbulo" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">4</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="US54-EJ73-DH68-YE78" name="Captain Tycho" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">5</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="UR33-TM85-BA17-HK65" name="Chief Librarian Mephiston" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">7</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">5</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">6</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="CC67-HR56-XR73-XZ58" name="Commander Dante" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">6</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="SE61-VW35-IG81-IW51" name="Death Company Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">8</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">9</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">8</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">3</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="UM81-VG24-ZI41-WY85" name="Death Company Intercessors" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">2</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="RS61-HF75-AQ35-HD81" name="Death Company Marines" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">2</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="BG80-SI13-HC34-VK38" name="Death Company Marines with Jump Packs" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">2</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="WF70-WD52-TB28-HM27" name="Furioso Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">9</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">8</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">3</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="EA18-XL88-EA25-ZL18" name="Gabriel Seth" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">6</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="SQ41-IQ88-MB92-KN97" name="Lemartes" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">4</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">5</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="PL53-CC37-KS74-ZV23" name="Librarian Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">9</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">8</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">3</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="CE65-NE31-HG86-AZ59" name="Sanguinary Guard" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">2</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ZS63-EF44-JR86-JV25" name="Sanguinary Priest" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">4</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="GQ10-GY72-UG21-WK94" name="The Sanguinor" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">7</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="HH23-YW39-OX62-HP71" name="Tycho the Lost" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">2</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">4</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="LD40-SJ44-KQ44-YG57" name="Sanguinary Priest with Jump Pack" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208">12</characteristic>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4">4</characteristic>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="22b7-c440-92a3-2d7c" name="Perdition" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619">6</characteristic>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a">1</characteristic>
-        <characteristic name="BS" typeId="327b-0f44-3b33-d89e">2</characteristic>
-        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea">8</characteristic>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">4</characteristic>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28">DS</characteristic>
-        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
-      </characteristics>
-    </profile>
-    <profile id="413b-8353-2583-c349" name="The Axe Mortalis" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a">8</characteristic>
-        <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
-        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">2</characteristic>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea">7</characteristic>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">3</characteristic>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
-        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
-      </characteristics>
-    </profile>
     <profile id="7b56-cb18-9a96-d313" name="Archangel&apos;s Shard" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">Adeptus Astartes model only. The bearer’s melee weapons have the [ANTI-CHAOS 5+] and  [LANCE] abilities.</characteristic>
