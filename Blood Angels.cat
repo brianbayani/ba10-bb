@@ -1,27 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="66f4-477b-095e-9f96" name="Blood Angels" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="0c08-d14c-9efb-a6b7" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
-  <selectionEntries>
-    <selectionEntry id="9524-2f40-3f19-5940" name="Artisan of War" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="6f3d-5254-0408-09a4" name="New CategoryLink" hidden="false" targetId="7ec5-348b-d81f-8fa3" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="b482-c0db-d69e-dbf5" name="Artisan of War" hidden="false" collective="false" import="true" targetId="9cde-e0ec-f2a2-2b51" type="selectionEntry">
-          <categoryLinks>
-            <categoryLink id="85ef-4035-2f87-815c" name="Enhancement" hidden="false" targetId="7ec5-348b-d81f-8fa3" primary="false"/>
-          </categoryLinks>
-        </entryLink>
-      </entryLinks>
-    </selectionEntry>
-    <selectionEntry id="83c8-ec2b-d356-4728" name="Archangel&apos;s Shard" hidden="false" collective="false" import="true" type="upgrade">
-      <categoryLinks>
-        <categoryLink id="b12f-c86a-0135-de0c" name="New CategoryLink" hidden="false" targetId="7ec5-348b-d81f-8fa3" primary="true"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="18bc-ff0f-981f-0603" name="Archangel&apos;s Shard" hidden="false" collective="false" import="true" targetId="3111-6189-9d5d-4f7a" type="selectionEntry"/>
-      </entryLinks>
-    </selectionEntry>
-  </selectionEntries>
   <entryLinks>
     <entryLink id="jxMbVge71Ai0iUSM-ZCR14kmW1yaT74E2-vQAwFBmUyqcGSloC-qdUpfHDUNGfnwhAG" name="Aggressor Squad" hidden="false" collective="false" import="false" targetId="IJ8V-xw4B-jcA1-PBeo" type="selectionEntry">
       <categoryLinks>
@@ -159,6 +137,9 @@
       <categoryLinks>
         <categoryLink id="OFtQpkpSZufkITdm-qMGNa91BWgq9JZZy-xxO861o0hwYGQH4V-0UqR52cAwFssSjOv" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="true"/>
       </categoryLinks>
+      <costs>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="220.0"/>
+      </costs>
     </entryLink>
     <entryLink id="zXCzDFd4jxoLvwxj-WUOjG1B5IHuk0skG-7f7ck7DA3yoaDeXY-TXVQFqBQv8eXEn4P" name="Captain" hidden="false" collective="false" import="false" targetId="IyQm-6d6C-5ekK-GAhW" type="selectionEntry">
       <categoryLinks>
@@ -1091,6 +1072,16 @@
     <entryLink id="3407-1736-5eb6-9c33" name="Icon of the Angel" hidden="false" collective="false" import="true" targetId="201e-b35f-afa4-de3f" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="4701-32fd-21d8-89b9" name="New CategoryLink" hidden="false" targetId="7ec5-348b-d81f-8fa3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="18e5-0f6e-9f81-f514" name="Artisan of War" hidden="false" collective="false" import="true" targetId="9cde-e0ec-f2a2-2b51" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6169-be1d-8b90-0a0f" name="Enhancement" hidden="false" targetId="7ec5-348b-d81f-8fa3" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6a54-a8ef-a1a0-5a5f" name="Archangel&apos;s Shard" hidden="false" collective="false" import="true" targetId="3111-6189-9d5d-4f7a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8147-c2ba-e88d-6ac4" name="New CategoryLink" hidden="false" targetId="7ec5-348b-d81f-8fa3" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2570,7 +2561,11 @@
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3111-6189-9d5d-4f7a" name="Archangel&apos;s Shard" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="3111-6189-9d5d-4f7a" name="Archangel&apos;s Shard" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="9cde-e0ec-f2a2-2b51" name="Artisan of War" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
         <categoryLink id="4a45-ca8e-da8f-721f" name="Enhancement" hidden="false" targetId="7ec5-348b-d81f-8fa3" primary="true"/>
