@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem id="0c08-d14c-9efb-a6b7" name="10th Ed Blood Angels" revision="1" battleScribeVersion="2.03" authorName="Brian Bayani" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <readme>This is a rough outline to get Blood Angel&apos;s players started in 10th edition. Points cost for BA and SM units are built in, but currently no weapon profiles. More importantly, there is almost no logic built in so rely on the indices and core rules for building legal armies. </readme>
   <costTypes>
     <costType id="4398-3629-920e-f774" name="Points" defaultCostLimit="-1.0" hidden="false"/>
   </costTypes>
@@ -23,6 +24,7 @@
         <characteristicType id="9a4c-f516-2825-0fea" name="S"/>
         <characteristicType id="b2ce-ed65-d0c1-fc9f" name="AP"/>
         <characteristicType id="f17f-4510-0ce9-db28" name="D"/>
+        <characteristicType id="2833-7d9c-ace4-4283" name="Keywords"/>
       </characteristicTypes>
     </profileType>
     <profileType id="12a9-34d9-3f79-6872" name="Transport">
@@ -101,11 +103,6 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8253-80ec-8c68-f535" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="9f0b-17b2-d68c-d03f" name="Astorath" hidden="false">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="3db8-671e-4b59-bcd4" type="max"/>
-      </constraints>
-    </categoryEntry>
     <categoryEntry id="2141-8ef1-076d-00fe" name="Lemartes" hidden="false">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c124-1fd6-e988-6a3b" type="max"/>
@@ -133,8 +130,25 @@
       <constraints>
         <constraint field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="2eab-0559-2f10-9129" type="max"/>
       </constraints>
+      <rules>
+        <rule id="a648-503d-3b3b-b5e4" name="The Red Thirst" hidden="false">
+          <description>Each time an Adeptus Astartes unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit.</description>
+        </rule>
+      </rules>
+      <forceEntries>
+        <forceEntry id="36a3-ee8b-b2bd-724b" name="Sons of Sanguinius" hidden="false"/>
+      </forceEntries>
+      <categoryLinks>
+        <categoryLink id="cd03-ec9f-c388-3cb2" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="false"/>
+        <categoryLink id="bf1f-acc6-ec0f-572a" name="Enhancement" hidden="false" targetId="7ec5-348b-d81f-8fa3" primary="false"/>
+      </categoryLinks>
     </forceEntry>
   </forceEntries>
+  <rules>
+    <rule id="2b75-964f-ffdd-29f0" name="Oath of Moment" hidden="false">
+      <description>If your Army Faction is Adeptus Astartes, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model from your army with this ability makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll.</description>
+    </rule>
+  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="EB82-QT38-NQ66-AX38" name="Absolver bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
@@ -756,7 +770,17 @@
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="472d-04a4-b441-e708" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="fa05-b9a3-0573-e3cb" name="Deep Strike" hidden="false"/>
+    <rule id="d0db-b100-0ea0-1e3d" name="Leader" hidden="false"/>
+    <rule id="80c7-b138-11bb-fcc3" name="Oath of Moment" hidden="false"/>
+  </sharedRules>
   <sharedProfiles>
     <profile id="HG67-YL70-KF40-CZ72" name="Absolver bolt pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
@@ -767,6 +791,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="DV51-WJ31-JG98-KZ96" name="Astartes chainsword" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -778,6 +803,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="RJ11-ZU26-CZ31-WC46" name="Astartes grenade launcher - frag" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -789,6 +815,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="MB31-KU20-QN26-SX95" name="Astartes grenade launcher - krak" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -800,6 +827,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="XJ88-LG34-OE48-IS10" name="Bolt pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -811,6 +839,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="FI97-YL18-AT93-AT28" name="Boltstorm gauntlet" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -822,6 +851,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="VZ20-EA58-OM84-SJ45" name="Chainfist" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -833,6 +863,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="WW15-TX37-UD21-SX26" name="Close combat weapon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -844,6 +875,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="ZU30-DW88-MH28-SW82" name="Combat knife" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -855,6 +887,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="PL46-II13-CU51-DT88" name="Combi-weapon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -866,6 +899,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="JL61-DC88-DM20-UO46" name="Crizius arcanum" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -877,6 +911,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="QS53-WY55-LW38-CI35" name="Flamer" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -888,6 +923,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="SO26-IF33-TQ11-IZ57" name="Force weapon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -899,6 +935,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="HF94-LW14-JM37-QM28" name="Forge bolter" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -910,6 +947,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="GJ40-OQ86-KV27-SW35" name="Grav-pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -921,6 +959,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="WR23-IJ45-GF54-TR56" name="Hand flamer" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -932,6 +971,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="NL40-OX60-KL87-GO89" name="Haywire mine" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -943,6 +983,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="UI31-CE38-MR15-IN28" name="Heavy bolt pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -954,6 +995,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="TU95-IY53-MK21-EY77" name="Heavy bolt rifle" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -965,6 +1007,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="FH80-XA26-AD50-VG65" name="Heavy bolter" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -976,6 +1019,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="LE41-DQ57-PT42-DQ83" name="Helix Gauntlet" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -987,6 +1031,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="LA86-NS48-BQ57-TM59" name="Inferno pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -998,6 +1043,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="JM97-SE89-UJ48-JA25" name="Infiltrator Comms Array" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1009,6 +1055,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="BL90-LB60-QN11-SL54" name="Instigator bolt carbine" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1020,6 +1067,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="JH53-GT83-AH98-KZ13" name="Marksman bolt carbine" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1031,6 +1079,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="NT45-HU78-FE88-HX17" name="Master-crafted bolt rifle" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1042,6 +1091,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="RQ21-VY43-UL32-KN66" name="Master-crafted boltgun" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1053,6 +1103,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="JP97-MQ93-UI65-XR55" name="Master-crafted heavy bolt rifle" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1064,6 +1115,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="GU16-MZ26-HI65-ZP12" name="Master-crafted powerweapon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1075,6 +1127,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="II46-PH39-CB49-NY66" name="Missile launcher - frag" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1086,6 +1139,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="FA53-RR17-XG19-DF79" name="Missile launcher - krak" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1097,6 +1151,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="JJ29-GD17-YP70-DV73" name="Occulus bolt carbine" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1108,6 +1163,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="WE92-OA53-AS74-EU48" name="Omnissian power axe" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1119,6 +1175,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="SJ11-XG90-ST98-ZI60" name="Paired combat blades" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1130,6 +1187,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="IO97-HK70-EC52-GL36" name="Plasma cannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1141,6 +1199,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="WK79-SI27-KB12-SG34" name="Plasma gun" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1152,6 +1211,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="UK47-OX74-CF50-RG76" name="Plasma pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1163,6 +1223,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="TN74-UO51-CE63-NL83" name="Power fist" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1174,6 +1235,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="MO90-IE71-SW85-XL43" name="Pyreblaster" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1185,6 +1247,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="NB58-TD72-FM99-US13" name="Reductor pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1196,6 +1259,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="YP54-IF34-CM55-AM91" name="Relic blade" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1207,6 +1271,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="GJ24-CY84-YH21-JJ68" name="Relic chainsword" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1218,6 +1283,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="WP55-PC71-EO97-FY84" name="Relic fist" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1229,6 +1295,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="WY51-KT68-CF22-VJ83" name="Relic weapon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1240,6 +1307,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="FX77-LX14-EN47-XZ11" name="Scout sniper rifle" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1251,6 +1319,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="KC56-YA48-FD25-GJ16" name="Servitor servo-arm" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1262,6 +1331,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="DZ20-SL95-PR68-GG29" name="Servo-arm" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1273,6 +1343,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="FU30-TV47-YX94-ED48" name="Smite" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1284,6 +1355,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="OG17-HN83-DD90-SV54" name="Storm Bolter" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1295,6 +1367,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="KC35-DN46-VS77-VC66" name="Thunder hammer" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1306,6 +1379,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="NJ57-BT50-IK20-YX43" name="Twin bolt rifle" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1317,6 +1391,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="HZ23-QS82-WF18-LH76" name="Twin lightning claws" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1328,6 +1403,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="RY32-OH80-OH94-DN44" name="Power weapon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1339,6 +1415,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="RW94-TT30-BD69-MG19" name="Neo-volkite pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1350,6 +1427,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="MO24-EC48-JK72-HN42" name="Champion&apos;s blade" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1361,6 +1439,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="CT67-DR17-SO41-LU77" name="Heirloom weapon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1372,6 +1451,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="VP95-DI32-XT46-PM25" name="Jump pack" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1383,6 +1463,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="TY64-QX57-OH23-TU28" name="Sternguard bolt pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1394,6 +1475,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="RE74-QR60-BL82-OK87" name="Sternguard bolt rifle" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1405,6 +1487,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="YX56-MM79-FH90-WB50" name="Sternguard heavy bolter" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1416,6 +1499,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="XW78-GD82-GZ49-LD81" name="Executioner relic blade" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1427,6 +1511,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="XJ27-CE50-FO30-AK71" name="Storm shield" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1438,6 +1523,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="DY12-OK61-ZC47-XB53" name="Bolt carbine" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1449,6 +1535,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="JK71-KC98-KW96-CR13" name="Special issue bolt pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1460,6 +1547,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="VC46-HB44-DA66-BH72" name="Auto boltstorm gauntlets" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1471,6 +1559,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="GN41-BI26-UG51-MN36" name="Flamestorm gauntlest" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1482,6 +1571,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="TZ64-WJ88-TU44-HN59" name="Fragstorm grenade launcher" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1493,6 +1583,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="XC79-FQ70-JK80-XR14" name="Cyclone missile launcher - frag" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1504,6 +1595,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="UR89-OI39-KD45-FS16" name="Cyclone missile launcher - krak" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1515,6 +1607,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="TC78-BO72-SI52-IZ64" name="Assault cannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1526,6 +1619,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="OD71-JV77-QL31-XS72" name="Heavy flamer" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1537,6 +1631,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="ZX26-QL53-KH74-ON69" name="Plasma blaster" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1548,6 +1643,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="PY74-QB35-MD33-PK63" name="Reaper autocannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1559,6 +1655,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="XY66-QM43-HX20-YH95" name="Volkite charger" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1570,6 +1667,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="SR10-EJ88-CO65-NQ84" name="Centurion bolters" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1581,6 +1679,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="TS68-BR50-EV26-SS75" name="Twin flamer" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1592,6 +1691,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="MU46-VA85-MU48-EX93" name="Twin meltagun" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1603,6 +1703,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="EF24-KG42-KK94-NI59" name="Siege drills" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1614,6 +1715,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="IG28-MW78-NM42-XE92" name="Centurion fists" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1625,6 +1727,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="LZ64-DY55-OE80-VJ32" name="Centurion missile launcher" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1636,6 +1739,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="PO51-BX47-FG39-LW18" name="Grav-cannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1647,6 +1751,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="MS23-AI53-EV10-MO81" name="Twin heavy bolter" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1658,6 +1763,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="OR27-PL48-XR91-ZD74" name="Twin lascannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1669,6 +1775,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="LD71-CM54-TF28-CW92" name="Incendium cannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1680,6 +1787,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="WQ54-JL50-SS17-IO82" name="Twin ironhail autocannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1691,6 +1799,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="RX18-UD26-BX59-OO45" name="Twin ironhail heavy stubber" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1702,6 +1811,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="ZU35-YG28-NI58-JW31" name="Invictor fist" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1713,6 +1823,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="UW52-II77-MK76-KO60" name="Heavy plasma cannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1724,6 +1835,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="IW92-YK91-JP35-FG27" name="Multi-melta" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1735,6 +1847,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="PL65-JF51-HU77-IF61" name="Dreadnought combat weapon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1746,6 +1859,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="MH80-MN62-PB43-NF22" name="Kheres-pattern assault cannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1757,6 +1871,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="AY43-AL29-EZ24-UQ10" name="Hurricane Bolter" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1768,6 +1883,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="YM87-JD47-XD24-PD42" name="Hunter-killer missile" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1779,6 +1895,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="DO74-HY28-PA84-OA57" name="Dreadnought chainfist" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1790,6 +1907,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="UL97-WW97-SF97-OT36" name="Seismic hammer" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1801,6 +1919,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="NC10-QS55-US62-MZ69" name="Heavy onslaught gatling canon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1812,6 +1931,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="ZP41-KM28-JU84-CA39" name="Icarus rocket pod" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1823,6 +1943,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="VY91-AA23-HW35-CZ60" name="Macro plasma incenerator" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1834,6 +1955,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="GN73-RH61-GP57-IA63" name="Onslaught gatling cannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1845,6 +1967,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="NX81-FD39-FB94-FO28" name="Twin fragstorm grenade launcher" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1856,6 +1979,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="SF29-FS48-NQ60-QQ76" name="Twin storm bolter" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1867,6 +1991,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="VT84-SP86-RT86-PB37" name="Redemptor fist" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1878,6 +2003,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="XF18-IQ44-JI69-FC41" name="Brutalis bolt rifles" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1889,6 +2015,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="II43-LB29-BC77-UA90" name="Twin icarus ironhail heavy stubber" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1900,6 +2027,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="KS51-TL54-XE33-GV35" name="Twin multi-melta" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1911,6 +2039,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="VL48-RG74-WK14-WG36" name="Brutalis fists" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1922,6 +2051,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="EQ18-ZG77-GZ27-MC42" name="Brutalis talons" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1933,6 +2063,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="DX40-SO30-UG72-YB25" name="Ballistus missile launcher - frag" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1944,6 +2075,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="IF97-UH32-JS56-DY84" name="Ballistus missile launcher - krak" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1955,6 +2087,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="ZM50-DF51-AS22-SC59" name="Ballistus lascannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1966,6 +2099,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="HP43-KT13-YZ58-RU94" name="Armoured feet" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1977,6 +2111,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="VB35-RG48-KQ70-HP26" name="Eviscerator" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1988,6 +2123,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="RE67-WY23-RB92-SV40" name="Accelerator autocannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1999,6 +2135,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="JH73-KI19-UJ37-WD32" name="Assault bolters" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2010,6 +2147,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="CJ24-ZU17-QG16-UB52" name="Plasma exterminators" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2021,6 +2159,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="LT23-ZN45-CF61-MW83" name="Plasma incinerator" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2032,6 +2171,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="PO64-SR12-SR18-SV45" name="Bolt sniper rifle" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2043,6 +2183,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="UK85-EC33-SP97-EM18" name="Las fusil" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2054,6 +2195,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="LN38-MG23-BK55-GZ33" name="Melta rifle" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2065,6 +2207,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="NE15-LF57-MB23-OG97" name="Lascannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2076,6 +2219,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="YI78-ST12-CH63-SA53" name="Castellan launcher" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2087,6 +2231,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="PT56-MG34-NL69-OT29" name="Superfrag rocket launcher" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2098,6 +2243,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="JF53-AR40-AS75-XP24" name="Superkrak rocket launcher" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2109,6 +2255,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="VQ84-JI11-AA93-UO27" name="Vengor launcher" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2120,6 +2267,7 @@
         <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
     <profile id="ON73-IV60-IX64-DN81" name="Aggressor Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
@@ -2192,27 +2340,7 @@
         <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
       </characteristics>
     </profile>
-    <profile id="SJ29-GB29-OU90-JA47" name="Astorath" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
     <profile id="ED31-NG15-LB28-KD48" name="Attack Bike Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="AB21-UI74-EX52-BG25" name="Baal Predator" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
       <characteristics>
         <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
         <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
@@ -2253,16 +2381,6 @@
       </characteristics>
     </profile>
     <profile id="CQ45-JL15-JB38-NB53" name="Bladeguard Veteran Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="CE11-TO60-AU38-HN14" name="Brother Corbulo" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
       <characteristics>
         <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
         <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
@@ -2323,16 +2441,6 @@
       </characteristics>
     </profile>
     <profile id="DX22-PY18-CK78-NJ17" name="Captain on Bike" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="US54-EJ73-DH68-YE78" name="Captain Tycho" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
       <characteristics>
         <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
         <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
@@ -2412,16 +2520,6 @@
         <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
       </characteristics>
     </profile>
-    <profile id="UR33-TM85-BA17-HK65" name="Chief Librarian Mephiston" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
     <profile id="WC46-TT11-ZE83-RS13" name="Command Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
       <characteristics>
         <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
@@ -2432,57 +2530,7 @@
         <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
       </characteristics>
     </profile>
-    <profile id="CC67-HR56-XR73-XZ58" name="Commander Dante" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
     <profile id="CC97-LU72-WO30-PL59" name="Contemptor Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="SE61-VW35-IG81-IW51" name="Death Company Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="UM81-VG24-ZI41-WY85" name="Death Company Intercessors" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="RS61-HF75-AQ35-HD81" name="Death Company Marines" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="BG80-SI13-HC34-VK38" name="Death Company Marines with Jump Packs" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
       <characteristics>
         <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
         <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
@@ -2553,26 +2601,6 @@
       </characteristics>
     </profile>
     <profile id="ZW15-PV92-KR20-ZM72" name="Firestrike Servo-turrets" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="WF70-WD52-TB28-HM27" name="Furioso Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="EA18-XL88-EA25-ZL18" name="Gabriel Seth" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
       <characteristics>
         <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
         <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
@@ -2832,27 +2860,7 @@
         <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
       </characteristics>
     </profile>
-    <profile id="SQ41-IQ88-MB92-KN97" name="Lemartes" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
     <profile id="NU59-MN68-TE34-LL73" name="Librarian" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="PL53-CC37-KS74-ZV23" name="Librarian Dreadnought" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
       <characteristics>
         <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
         <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
@@ -3112,36 +3120,6 @@
         <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
       </characteristics>
     </profile>
-    <profile id="CE65-NE31-HG86-AZ59" name="Sanguinary Guard" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="ZS63-EF44-JR86-JV25" name="Sanguinary Priest" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="LD40-SJ44-KQ44-YG57" name="Sanguinary Priest with Jump Pack" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
     <profile id="JJ46-KM22-LU25-XU29" name="Scout Bike Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
       <characteristics>
         <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
@@ -3302,27 +3280,7 @@
         <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
       </characteristics>
     </profile>
-    <profile id="GQ10-GY72-UG21-WK94" name="The Sanguinor" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
     <profile id="PN71-DC27-BV56-YJ14" name="Thunderfire Cannon" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-      <characteristics>
-        <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-        <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-        <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-        <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-        <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-        <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-      </characteristics>
-    </profile>
-    <profile id="HH23-YW39-OX62-HP71" name="Tycho the Lost" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
       <characteristics>
         <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
         <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
@@ -3380,6 +3338,18 @@
         <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
         <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
         <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+      </characteristics>
+    </profile>
+    <profile id="619d-e166-74e8-aa26" name="Meltagun" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">12</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">1</characteristic>
+        <characteristic name="BS" typeId="327b-0f44-3b33-d89e">3</characteristic>
+        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">9</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">4</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">D6</characteristic>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
   </sharedProfiles>
