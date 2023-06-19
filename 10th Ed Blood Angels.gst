@@ -32,7 +32,7 @@
         <characteristicType id="ebcb-8283-245a-e0fe" name="Capacity"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="ab82-d4ba-1289-b036" name="Abilities">
+    <profileType id="ab82-d4ba-1289-b036" name="Unit Abilities">
       <characteristicTypes>
         <characteristicType id="5eeb-9250-b4df-84f9" name="Description"/>
       </characteristicTypes>
@@ -40,6 +40,11 @@
     <profileType id="8de2-a94e-43c1-7b9c" name="Keywords">
       <characteristicTypes>
         <characteristicType id="c856-60ec-1c9f-a7a1" name="Keywords"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="cd24-57cd-9257-fc87" name="Character Abilities">
+      <characteristicTypes>
+        <characteristicType id="8857-0af3-3c28-fff2" name="Description"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -63,12 +68,16 @@
     </categoryEntry>
     <categoryEntry id="7b12-5c51-e83f-780c" name="Battleline" hidden="false">
       <constraints>
-        <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="33b7-2ef3-3d03-53fd" type="max"/>
+        <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="33b7-2ef3-3d03-53fd" type="max"/>
       </constraints>
     </categoryEntry>
     <categoryEntry id="af18-fcf3-2b34-ea7c" name="Vehicle" hidden="false"/>
     <categoryEntry id="23ca-f93e-49dd-dc19" name="Baal Predator" hidden="false"/>
-    <categoryEntry id="8042-4c44-5f3e-ad35" name="Adeptus Astartes" hidden="false"/>
+    <categoryEntry id="8042-4c44-5f3e-ad35" name="Adeptus Astartes" hidden="false">
+      <infoLinks>
+        <infoLink id="18b0-0a8b-7ac2-5667" name="Oath of Moment" hidden="false" targetId="80c7-b138-11bb-fcc3" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
     <categoryEntry id="87fe-69e5-08cf-d1ec" name="Blood Angels" hidden="false"/>
     <categoryEntry id="5f3c-b9cc-22ac-64c0" name="Sanguinary Priest" hidden="false"/>
     <categoryEntry id="b964-6dd1-80a2-ebdc" name="Captain" hidden="false"/>
@@ -775,15 +784,36 @@
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7f7c-0b4e-1aac-6688" name="Relic Shield" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="7f7c-0b4e-1aac-6688" name="Relic Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9072-6ecd-c594-e667" name="Leader" hidden="false" collective="false" import="true"/>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="fa05-b9a3-0573-e3cb" name="Deep Strike" hidden="false"/>
-    <rule id="d0db-b100-0ea0-1e3d" name="Leader" hidden="false"/>
-    <rule id="80c7-b138-11bb-fcc3" name="Oath of Moment" hidden="false"/>
+    <rule id="fa05-b9a3-0573-e3cb" name="Deep Strike" hidden="false">
+      <description>■ Unit can be set up in Reserves instead of on the battlefield. 
+■ Unit can be set up in your Reinforcements step, more than 9&quot; horizontally away from all enemy models</description>
+    </rule>
+    <rule id="d0db-b100-0ea0-1e3d" name="Leader" hidden="false">
+      <description>■ Before the battle, Character units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit. 
+■ Attached units can only contain one Leader. 
+■ Attacks cannot be allocated to Character models in Attached units.</description>
+    </rule>
+    <rule id="80c7-b138-11bb-fcc3" name="Oath of Moment" hidden="false">
+      <description>If your Army Faction is Adeptus Astartes, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model from your army with this ability makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll.</description>
+    </rule>
+    <rule id="c81b-513f-db1f-2c7a" name="Infiltrators" hidden="false">
+      <description>During deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9&quot; horizontally away from the enemy deployment zone and all enemy models.</description>
+    </rule>
+    <rule id="d7bf-5c72-65f1-fb67" name="Scouts" hidden="false">
+      <description>■ Scouts x&quot;: Unit can make a Normal move of up to x&quot; before the first turn begins. 
+■ If embarked in a Dedicated Transport, that Dedicated Transport can make this move instead. 
+■ Must end this move more than 9&quot; horizontally away from all enemy models.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="HG67-YL70-KF40-CZ72" name="Absolver bolt pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2284,6 +2314,21 @@
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">4</characteristic>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28">D6</characteristic>
         <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+      </characteristics>
+    </profile>
+    <profile id="1be6-c8c0-e3a1-2169" name="Psychic Hood" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="8857-0af3-3c28-fff2">While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against Psychic Attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2fc3-fef2-299a-a397" name="Damaged: 1-5 Wounds Remaining" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8195-a291-fc68-57af" name="Damaged: 1-4 Wounds Remaining" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

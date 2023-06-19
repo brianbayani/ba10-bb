@@ -1490,6 +1490,53 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="Wsax-tSSB-pfhr-D80X" name="Assault Intercessor Squad" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e037-f986-7119-c11a" name="Assault Intercessor Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+          <characteristics>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">5</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="4fea-404c-c8bb-e618" name="Shock Assault" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">Each time a model in this unit targets an enemy unit with a melee attack, re-roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re-roll the Wound roll instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="3ff6-358c-445c-6bda" name="Infantry" hidden="false" targetId="a91f-6984-d96d-3c37" primary="false"/>
+        <categoryLink id="b439-7007-76bc-b379" name="Battleline" hidden="false" targetId="7b12-5c51-e83f-780c" primary="false"/>
+        <categoryLink id="2fc8-297a-de36-2f32" name="Grenades" hidden="false" targetId="8809-b638-134e-49f2" primary="false"/>
+        <categoryLink id="12cf-900f-2794-66d4" name="Imperium" hidden="false" targetId="135a-561a-09b2-b5e2" primary="false"/>
+        <categoryLink id="4887-bf3c-56ae-6d97" name="Tacticus" hidden="false" targetId="6c5b-c144-c0c7-5b60" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b8f7-d8b0-1d6e-ccd7" name="Ranged Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4f40-9607-e8c3-a072" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="024d-6802-eded-909e" name="Hand flamer" hidden="false" collective="false" import="true" targetId="OB84-YU38-OQ52-GR57" type="selectionEntry"/>
+            <entryLink id="2bdb-06e4-2ab1-12f6" name="Heavy bolt pistol" hidden="false" collective="false" import="true" targetId="CL72-CS80-NA31-VJ76" type="selectionEntry"/>
+            <entryLink id="0628-6331-ee14-8de5" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="CK17-FL62-MF66-YD21" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9472-5f95-db17-5646" name="Melee Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0f39-4a96-e4f3-8767" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a759-ef6d-fda7-2a91" name="Thunder hammer" hidden="false" collective="false" import="true" targetId="XL72-MT60-CS22-BD77" type="selectionEntry"/>
+            <entryLink id="8f49-4dae-f3f8-9e63" name="Power weapon" hidden="false" collective="false" import="true" targetId="UW22-YQ51-ZS61-FW68" type="selectionEntry"/>
+            <entryLink id="a515-0ef2-e5a9-5e02" name="Power fist" hidden="false" collective="false" import="true" targetId="HB62-FT64-OG97-QO69" type="selectionEntry"/>
+            <entryLink id="888c-fe58-50e9-94d7" name="Astartes chainsword" hidden="false" collective="false" import="true" targetId="SN99-VT51-TK10-FA45" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1500,18 +1547,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="QzVB-gfMC-kzRA-KM1F" name="Assault Intercessor Squad, 5 Models" hidden="false" collective="false" import="true" type="model">
-      <profiles>
-        <profile id="80a7-38a2-c878-d7ff" name="Assault Intercessor Squad" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
-          <characteristics>
-            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
-          </characteristics>
-        </profile>
-      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="90.0"/>
       </costs>
@@ -1571,6 +1606,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="hV7U-rE0P-KPGk-TqNy" name="Astartes Servitors" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="9a90-431f-43eb-2269" type="max"/>
+      </constraints>
       <profiles>
         <profile id="1c2f-3098-bdbb-7f0f" name="Astartes Servitors" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
           <characteristics>
@@ -1604,9 +1642,58 @@
             <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
           </characteristics>
         </profile>
+        <profile id="e431-9475-ddd1-d184" name="The Executioner&apos;s Axe" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
+            <characteristic name="A" typeId="1873-f632-0b12-bd7a">4</characteristic>
+            <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
+            <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">2</characteristic>
+            <characteristic name="S" typeId="9a4c-f516-2825-0fea">6</characteristic>
+            <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">3</characteristic>
+            <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
+            <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Devastating Wounds</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dac5-5505-cea3-2112" name="Redeemer of the Lost" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">While this model is leading a unit, each time a model in that unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 4+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1a8e-d3d1-df8f-9b51" name="Mass of Doom" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">Once per battle, when this model’s unit makes a Charge move, this model can use this ability. When it does, until the end of the turn, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="90ee-3dfb-0e2c-1a8f" name="Invulnerable Save" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">This unit has a 4+ invulnerable save</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="f85f-f32a-233a-7e2a" name="Leader" hidden="false" targetId="d0db-b100-0ea0-1e3d" type="rule"/>
+        <infoLink id="070a-eff1-e6b3-7e63" name="Deep Strike" hidden="false" targetId="fa05-b9a3-0573-e3cb" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="263e-e4c2-bc9c-9ac3" name="Infantry" hidden="false" targetId="a91f-6984-d96d-3c37" primary="false"/>
+        <categoryLink id="d070-443e-8f55-364b" name="Character" hidden="false" targetId="666e-e392-3b02-2e8e" primary="false"/>
+        <categoryLink id="6cab-edf4-7e49-3e03" name="Epic Hero" hidden="false" targetId="69d1-bcce-1e14-051a" primary="false"/>
+        <categoryLink id="ac1b-7110-96b0-f0b8" name="Fly" hidden="false" targetId="dfbc-645a-f708-e925" primary="false"/>
+        <categoryLink id="4782-148f-f857-dd03" name="Jump Pack" hidden="false" targetId="1e60-eac9-5a58-3164" primary="false"/>
+        <categoryLink id="584d-0f61-7c90-4208" name="Grenades" hidden="false" targetId="8809-b638-134e-49f2" primary="false"/>
+        <categoryLink id="52fd-2f87-8f81-def5" name="Imperium" hidden="false" targetId="135a-561a-09b2-b5e2" primary="false"/>
+        <categoryLink id="c139-b290-e443-e05c" name="Chaplain" hidden="false" targetId="73e4-1838-9887-0e08" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b1ee-f8b7-0300-c45a" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="VS87-QR49-GQ14-HJ57" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d890-7445-5a9c-2c9c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a88-ca87-d123-69fb" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="l9PA-8wFk-gAkp-yEyI" name="Astorath, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -1663,7 +1750,106 @@
             <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">3</characteristic>
           </characteristics>
         </profile>
+        <profile id="503d-f211-0f61-a744" name="Armoured tracks" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
+            <characteristic name="A" typeId="1873-f632-0b12-bd7a">3</characteristic>
+            <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
+            <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">4</characteristic>
+            <characteristic name="S" typeId="9a4c-f516-2825-0fea">6</characteristic>
+            <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">0</characteristic>
+            <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
+            <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+          </characteristics>
+        </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="e0da-26b0-d0a7-dff9" name="Damaged: 1-4 Wounds Remaining" hidden="false" targetId="8195-a291-fc68-57af" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ca4e-c6de-dfe0-816f" name="Vehicle" hidden="false" targetId="9d6a-737c-4724-45ce" primary="false"/>
+        <categoryLink id="0d84-c8ad-5662-2560" name="Smoke" hidden="false" targetId="73e4-1838-9887-0e09" primary="false"/>
+        <categoryLink id="32e1-2d4b-878e-5f2d" name="Imperium" hidden="false" targetId="135a-561a-09b2-b5e2" primary="false"/>
+        <categoryLink id="83ce-508e-f7fe-25ae" name="Baal Predator" hidden="false" targetId="23ca-f93e-49dd-dc19" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="55df-6717-1cde-0909" name="Ranged Weapon 1" hidden="false" collective="false" import="true" defaultSelectionEntryId="1bd9-44e7-09f0-9dc5">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec06-67ac-a8e9-1d96" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23d9-4cba-4a3c-d411" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="42e6-0ce0-6e5e-0166" name="Baal flamestorm cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="59db-532c-114e-259a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="ccd2-2342-d66d-cef6" name="Baal flamestorm cannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8955-beeb-adf1-f619">18</characteristic>
+                    <characteristic name="A" typeId="1873-f632-0b12-bd7a">D6+3</characteristic>
+                    <characteristic name="BS" typeId="327b-0f44-3b33-d89e">N/A</characteristic>
+                    <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
+                    <characteristic name="S" typeId="9a4c-f516-2825-0fea">6</characteristic>
+                    <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">-2</characteristic>
+                    <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
+                    <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Ignores Cover, Torrent</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1bd9-44e7-09f0-9dc5" name="Twin assault cannon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="daea-8cec-dee6-075b" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4e5a-398d-8bb5-6d07" name="Twin assault cannon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="8955-beeb-adf1-f619">24</characteristic>
+                    <characteristic name="A" typeId="1873-f632-0b12-bd7a">6</characteristic>
+                    <characteristic name="BS" typeId="327b-0f44-3b33-d89e">3</characteristic>
+                    <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
+                    <characteristic name="S" typeId="9a4c-f516-2825-0fea">6</characteristic>
+                    <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">0</characteristic>
+                    <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
+                    <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Devastating Wounds, Twin-Linked</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5262-7598-8d43-be15" name="Ranged Weapon 2" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dcf-a002-7892-2530" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f20-4e86-358b-56bf" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="913b-4b7a-d036-c122" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="UU53-VV48-GH25-OL43" type="selectionEntry"/>
+            <entryLink id="2138-8c43-05b3-b3c5" name="2x Heavy flamer" hidden="false" collective="false" import="true" targetId="VA11-KT29-AW81-KW86" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3da6-0dfc-3e67-b619" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="AQ36-MD19-TY24-BU65" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a01c-d2a7-50a9-5feb" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0750-badc-e2b6-e785" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6752-5d1e-f4ec-88e8" name="Storm Bolter" hidden="false" collective="false" import="true" targetId="YX52-CO60-ST50-CI98" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cc3-ff31-bf1f-91a5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6961-74b4-8bfb-73c3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1736,7 +1922,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="50.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="XfSO-x5XY-7nPR-OrBh" name="Bladeguard Ancient, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -1783,7 +1969,52 @@
             <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
           </characteristics>
         </profile>
+        <profile id="f769-47b7-8596-79f0" name="Heaven&apos;s Teeth" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
+            <characteristic name="A" typeId="1873-f632-0b12-bd7a">6</characteristic>
+            <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
+            <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">2</characteristic>
+            <characteristic name="S" typeId="9a4c-f516-2825-0fea">5</characteristic>
+            <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">1</characteristic>
+            <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
+            <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Sustained Hits 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="6a25-3158-5e6b-a454" name="Sanguinary Priest" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">While this model is leading a unit, models in that unit have the Feel No Pain 5+ ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0e2a-10fc-ab72-141a" name="The Red Grail" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">While this model is leading a unit, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit. </characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="ea10-c1c7-fdb6-1030" name="Leader" hidden="false" targetId="d0db-b100-0ea0-1e3d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a80d-f83d-8179-6439" name="Infantry" hidden="false" targetId="a91f-6984-d96d-3c37" primary="false"/>
+        <categoryLink id="608f-d231-fed2-625a" name="Character" hidden="false" targetId="666e-e392-3b02-2e8e" primary="false"/>
+        <categoryLink id="d386-73e6-9bc9-8e25" name="Epic Hero" hidden="false" targetId="69d1-bcce-1e14-051a" primary="false"/>
+        <categoryLink id="d5fb-998d-3468-bfda" name="Grenades" hidden="false" targetId="8809-b638-134e-49f2" primary="false"/>
+        <categoryLink id="0429-370e-c8d8-3a86" name="Imperium" hidden="false" targetId="135a-561a-09b2-b5e2" primary="false"/>
+        <categoryLink id="c2e5-6f44-515b-2124" name="Sanguinary Priest" hidden="false" targetId="5f3c-b9cc-22ac-64c0" primary="false"/>
+        <categoryLink id="2db6-5ce3-e8f7-ebb5" name="Brother Corbulo" hidden="false" targetId="2f54-4b1d-1183-f53a" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2e3d-25f5-1eed-48c5" name="New SelectionEntry" hidden="false" collective="false" import="true" type="upgrade"/>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2245-ce4b-c42f-3be5" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="VS87-QR49-GQ14-HJ57" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9dd5-e0ae-d108-abac" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e195-5523-3edd-40b7" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1920,7 +2151,59 @@
             <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
           </characteristics>
         </profile>
+        <profile id="28ac-cf08-ab6b-2d76" name="Blood Song" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="8955-beeb-adf1-f619">24</characteristic>
+            <characteristic name="A" typeId="1873-f632-0b12-bd7a">2</characteristic>
+            <characteristic name="BS" typeId="327b-0f44-3b33-d89e">2</characteristic>
+            <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
+            <characteristic name="S" typeId="9a4c-f516-2825-0fea">4</characteristic>
+            <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">1</characteristic>
+            <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
+            <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Anti-Infantry 4+, Devastating Wounds, Melta 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="34be-94c1-210a-9739" name="Dead Man&apos;s Hand" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
+            <characteristic name="A" typeId="1873-f632-0b12-bd7a">6</characteristic>
+            <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
+            <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">2</characteristic>
+            <characteristic name="S" typeId="9a4c-f516-2825-0fea">4</characteristic>
+            <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">1</characteristic>
+            <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
+            <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+          </characteristics>
+        </profile>
+        <profile id="f360-51c8-2df0-19f9" name="Gifted Commander" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">While this model is leading a unit, each time that unit is selected to shoot, select one of the following abilities to apply to ranged weapons equipped by models in that unit until the end of the phase: [ASSAULT]  [HEAVY]  [RAPID FIRE 1]</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="250b-007b-8fb0-a8d0" name="Embittered" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">The first time an attack is allocated to this model, after the attacking unit has finished making its attacks, until the end of the battle, change the Attacks characteristic of this model’s Dead Man’s Hand to 12. </characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3c30-f9c2-3609-cd61" name="Invulnerable Save" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">This unit has a 4+ invulnerable save</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="b0f9-c45e-df59-713b" name="Bolt pistol" hidden="false" targetId="XJ88-LG34-OE48-IS10" type="profile"/>
+        <infoLink id="267b-04c7-9235-0bf0" name="Leader" hidden="false" targetId="d0db-b100-0ea0-1e3d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ef5b-1146-4f24-bf52" name="Infantry" hidden="false" targetId="a91f-6984-d96d-3c37" primary="true"/>
+        <categoryLink id="efe2-e5b3-4e1a-c771" name="Character" hidden="false" targetId="666e-e392-3b02-2e8e" primary="false"/>
+        <categoryLink id="4c71-1ff1-761e-a556" name="Tycho" hidden="false" targetId="8a37-b1a2-5856-fff8" primary="false"/>
+        <categoryLink id="ab8f-f59c-e30a-519e" name="Epic Hero" hidden="false" targetId="69d1-bcce-1e14-051a" primary="false"/>
+        <categoryLink id="bf48-7779-1d00-7e84" name="Grenades" hidden="false" targetId="8809-b638-134e-49f2" primary="false"/>
+        <categoryLink id="f45e-3fa3-dd7e-f499" name="Imperium" hidden="false" targetId="135a-561a-09b2-b5e2" primary="false"/>
+        <categoryLink id="8895-1876-6f72-c4cb" name="Captain" hidden="false" targetId="b964-6dd1-80a2-ebdc" primary="false"/>
+      </categoryLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2098,7 +2381,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="85.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="KT8n-RXis-2Z1m-v3SM" name="Chaplain With Jump Pack, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -2113,7 +2396,29 @@
     </selectionEntry>
     <selectionEntry id="mjeY-KHLt-uk7c-av5f" name="Chief Librarian Mephiston" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="37ba-dd50-6d37-4758" name="Chief Librarian Mephiston" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
+        <profile id="37ba-dd50-6d37-4758" name="Transfixing Gaze (Psychic)" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">At the start of the Fight phase, you can select one enemy unit within Engagement Range of this Psyker’s unit and roll one D6: on a 1, this Psyker model suffers D3 mortal wounds; on a 2-5, until the end of the phase, worsen the Weapon Skill characteristic of melee weapons equipped by models in that enemy unit by 1; on a 6, until the end of the phase, worsen the Weapon Skill and Attacks characteristics of those weapons by 1.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="58d0-1b6f-c15f-5797" name="Invulnerable Save" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c683-e367-af5d-9398" name="Fury of the ancients - focused witchfire" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="8955-beeb-adf1-f619">12</characteristic>
+            <characteristic name="A" typeId="1873-f632-0b12-bd7a">3</characteristic>
+            <characteristic name="BS" typeId="327b-0f44-3b33-d89e">2</characteristic>
+            <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
+            <characteristic name="S" typeId="9a4c-f516-2825-0fea">4</characteristic>
+            <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">2</characteristic>
+            <characteristic name="D" typeId="f17f-4510-0ce9-db28">D3</characteristic>
+            <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Hazardous, Pistol, Psychic, Sustained Hits 3</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7563-6d8f-c0b4-e2db" name="Chief Librarian Mephiston" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
           <characteristics>
             <characteristic name="M" typeId="6aab-6245-0d79-e208">7</characteristic>
             <characteristic name="T" typeId="ac53-9cb8-d99e-5123">5</characteristic>
@@ -2123,9 +2428,47 @@
             <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
           </characteristics>
         </profile>
+        <profile id="00f6-b723-b2ab-5aa8" name="The Quickening (Psychic)" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">While this model is leading a unit, models in that unit have the Fights First ability.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="687f-ba22-ae6c-2a84" name="The Quickening (Psychic)" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">While this model is leading a unit, models in that unit have the Fights First ability.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="f9f1-cddc-cd25-3eb8" name="Psychic Hood" hidden="false" targetId="1be6-c8c0-e3a1-2169" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3e12-0643-9cb1-6958" name="Infantry" hidden="false" targetId="a91f-6984-d96d-3c37" primary="false"/>
+        <categoryLink id="714f-68fb-484a-ef03" name="Character" hidden="false" targetId="666e-e392-3b02-2e8e" primary="false"/>
+        <categoryLink id="8f21-2bd0-6c54-c66b" name="Epic Hero" hidden="false" targetId="69d1-bcce-1e14-051a" primary="false"/>
+        <categoryLink id="ab19-1418-0013-2a02" name="Psyker" hidden="false" targetId="ce57-762d-3eaf-69a6" primary="false"/>
+        <categoryLink id="9b74-6c1f-cb2b-7b83" name="Grenades" hidden="false" targetId="8809-b638-134e-49f2" primary="false"/>
+        <categoryLink id="c391-754e-0818-b2ae" name="Imperium" hidden="false" targetId="135a-561a-09b2-b5e2" primary="false"/>
+        <categoryLink id="f12b-a66d-ae6a-288b" name="Tacticus" hidden="false" targetId="6c5b-c144-c0c7-5b60" primary="false"/>
+        <categoryLink id="c5d7-7251-6b56-e1c4" name="Chief Librarian Mephiston" hidden="false" targetId="ec57-5301-75bc-306d" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9896-40a0-8dd6-4d95" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="CK17-FL62-MF66-YD21" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cd5a-d1dc-181d-b96b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f3bf-095a-b716-eadd" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="665e-ffe1-a069-68ca" name="Transfixing Gaze (Psychic)" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="8857-0af3-3c28-fff2">At the start of the Fight phase, you can select one enemy unit within Engagement Range of this Psyker’s unit and roll one D6: on a 1, this Psyker model suffers D3 mortal wounds; on a 2-5, until the end of the phase, worsen the Weapon Skill characteristic of melee weapons equipped by models in that enemy unit by 1; on a 6, until the end of the phase, worsen the Weapon Skill and Attacks characteristics of those weapons by 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="F8u7-EjDu-lCfP-Cjms" name="Chief Librarian Mephiston, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -2166,20 +2509,23 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b7Wy-lj87-oUEB-sqmt" name="Commander Dante" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6de7-1544-1554-72af" type="max"/>
+      </constraints>
       <profiles>
-        <profile id="817e-2e39-16d4-1bc5" name="Death Mask of Sanguinius" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
+        <profile id="817e-2e39-16d4-1bc5" name="Death Mask of Sanguinius" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">At the start of the Fight phase, each enemy unit within 6&quot; of this model must take a Battle-shock test, subtracting 1 from that test when they do.</characteristic>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">At the start of the Fight phase, each enemy unit within 6&quot; of this model must take a Battle-shock test, subtracting 1 from that test when they do.</characteristic>
           </characteristics>
         </profile>
-        <profile id="9220-2fa8-c2e8-b6d4" name="Invlunerable Save" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
+        <profile id="9220-2fa8-c2e8-b6d4" name="Invlunerable Save" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">4+</characteristic>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">This unit has a 4+ invulnerable save. </characteristic>
           </characteristics>
         </profile>
-        <profile id="764c-5cdd-ffc4-f136" name="Lord Regent of the Imperium Nihilus" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
+        <profile id="764c-5cdd-ffc4-f136" name="Lord Regent of the Imperium Nihilus" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">While this model is leading a unit, add 1 to Charge rolls made for that unit and each time a model in that unit makes an attack, add 1 to the Hit roll.</characteristic>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">While this model is leading a unit, add 1 to Charge rolls made for that unit and each time a model in that unit makes an attack, add 1 to the Hit roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="fa2a-9f2b-e68f-3baa" name="Perdition" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2219,11 +2565,10 @@
       </profiles>
       <infoLinks>
         <infoLink id="5fbe-ef33-c875-a883" name="Deep Strike" hidden="false" targetId="fa05-b9a3-0573-e3cb" type="rule"/>
-        <infoLink id="a701-ce7b-aac4-a999" name="Leader" hidden="false" targetId="d0db-b100-0ea0-1e3d" type="rule"/>
-        <infoLink id="a02e-156a-5d67-8385" name="Oath of Moment" hidden="false" targetId="80c7-b138-11bb-fcc3" type="rule"/>
+        <infoLink id="244e-a39f-0f94-3031" name="Leader" hidden="false" targetId="d0db-b100-0ea0-1e3d" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="135.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="yijc-Tt9r-NAlj-ZEpY" name="Commander Dante, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -3002,7 +3347,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="gc3S-UHIy-Y4im-AEzW" name="Judiciar, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -3178,7 +3523,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="135.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="O63t-H8Hs-Ctcn-aeAE" name="Lemartes, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -3469,7 +3814,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="Ey13-Zrza-vrXL-BK4V" name="Primaris Ancient, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -3491,7 +3836,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="Z1vz-BOXI-xfDL-03mU" name="Primaris Apothecary, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -3513,7 +3858,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="80.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ozgs-dcmb-aedg-dEYY" name="Primaris Captain, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -3535,7 +3880,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1GhT-JJLM-d2Ox-kSf0" name="Primaris Chaplain, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -3557,7 +3902,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="55.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8q4z-9uRZ-yzNy-u30k" name="Primaris Company Champion, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -3579,7 +3924,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ygnD-HAO3-aQrS-xLxH" name="Primaris Librarian, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -3601,7 +3946,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2NnV-S2Bc-DFou-T84e" name="Primaris Lieutenant, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -3623,7 +3968,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="65.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="VNU0-5vYZ-FZTJ-EjqD" name="Primaris Techmarine, 1 Model" hidden="false" collective="false" import="true" type="model">
@@ -3836,7 +4181,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="kEUR-Xfvz-IYal-FfTs" name="Sanguinary Priest With Jump Pack" hidden="false" collective="false" import="true" type="unit">
@@ -3853,17 +4198,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="darO-7LzE-9nJd-FSFy" name="Sanguinary Priest With Jump Pack, 1 Model" hidden="false" collective="false" import="true" type="model">
-      <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="110.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="2E3F-DkPa-34SQ-jGPh" name="Sanguinary Priest, 1 Model" hidden="false" collective="false" import="true" type="model">
-      <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="100.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="JydC-Wut6-ufne-ET41" name="Scout Bike Squad" hidden="false" collective="false" import="true" type="unit">
@@ -4464,17 +4799,17 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="7b56-cb18-9a96-d313" name="Archangel&apos;s Shard" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
+    <profile id="7b56-cb18-9a96-d313" name="Archangel&apos;s Shard" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
       <characteristics>
         <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">Adeptus Astartes model only. The bearer’s melee weapons have the [ANTI-CHAOS 5+] and  [LANCE] abilities.</characteristic>
       </characteristics>
     </profile>
-    <profile id="f6b3-fe0b-8934-cf2b" name="Artisan of War" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
+    <profile id="f6b3-fe0b-8934-cf2b" name="Artisan of War" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
       <characteristics>
         <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">Adeptus Astartes model only. Improve the Armour Penetration characteristic of the bearer’s weapons by 1, and the bearer has a Save characteristic of 2+.</characteristic>
       </characteristics>
     </profile>
-    <profile id="ab35-f3d3-dfee-d569" name="Visage of Death" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Abilities">
+    <profile id="ab35-f3d3-dfee-d569" name="Visage of Death" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
       <characteristics>
         <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">Adeptus Astartes model only. While an enemy unit (excluding Monsters and Vehicles) is within Engagement Range of the bearer’s unit, halve the Objective Control characteristic of models in that unit.</characteristic>
       </characteristics>
