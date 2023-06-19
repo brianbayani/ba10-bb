@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="0c08-d14c-9efb-a6b7" name="10th Ed Blood Angels" revision="1" battleScribeVersion="2.03" authorName="Brian Bayani" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="0c08-d14c-9efb-a6b7" name="10th Ed Blood Angels" revision="2" battleScribeVersion="2.03" authorName="Brian Bayani" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>This is a rough outline to get Blood Angel&apos;s players started in 10th edition. Points cost for BA and SM units are built in, but currently no weapon profiles. More importantly, there is almost no logic built in so rely on the indices and core rules for building legal armies. </readme>
   <costTypes>
     <costType id="4398-3629-920e-f774" name="Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -56,7 +56,11 @@
     <categoryEntry id="666e-e392-3b02-2e8e" name="Character" hidden="false"/>
     <categoryEntry id="69d1-bcce-1e14-051a" name="Epic Hero" hidden="false"/>
     <categoryEntry id="dfbc-645a-f708-e925" name="Fly" hidden="false"/>
-    <categoryEntry id="1e60-eac9-5a58-3164" name="Jump Pack" hidden="false"/>
+    <categoryEntry id="1e60-eac9-5a58-3164" name="Jump Pack" hidden="false">
+      <infoLinks>
+        <infoLink id="9223-0f01-8686-8ea8" name="Deep Strike" hidden="false" targetId="fa05-b9a3-0573-e3cb" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
     <categoryEntry id="8809-b638-134e-49f2" name="Grenades" hidden="false"/>
     <categoryEntry id="135a-561a-09b2-b5e2" name="Imperium" hidden="false"/>
     <categoryEntry id="73e4-1838-9887-0e08" name="Chaplain" hidden="false"/>
@@ -71,7 +75,6 @@
         <constraint field="selections" scope="force" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="33b7-2ef3-3d03-53fd" type="max"/>
       </constraints>
     </categoryEntry>
-    <categoryEntry id="af18-fcf3-2b34-ea7c" name="Vehicle" hidden="false"/>
     <categoryEntry id="23ca-f93e-49dd-dc19" name="Baal Predator" hidden="false"/>
     <categoryEntry id="8042-4c44-5f3e-ad35" name="Adeptus Astartes" hidden="false">
       <infoLinks>
@@ -81,11 +84,9 @@
     <categoryEntry id="87fe-69e5-08cf-d1ec" name="Blood Angels" hidden="false"/>
     <categoryEntry id="5f3c-b9cc-22ac-64c0" name="Sanguinary Priest" hidden="false"/>
     <categoryEntry id="b964-6dd1-80a2-ebdc" name="Captain" hidden="false"/>
-    <categoryEntry id="4c06-6209-7992-2cc9" name="NewCategory" hidden="false"/>
     <categoryEntry id="ce57-762d-3eaf-69a6" name="Psyker" hidden="false"/>
     <categoryEntry id="4881-6d80-433a-e046" name="Chapter Master" hidden="false"/>
     <categoryEntry id="6c5b-c144-c0c7-5b60" name="Tacticus" hidden="false"/>
-    <categoryEntry id="33e4-6b04-42d8-9d86" name="Vehicle" hidden="false"/>
     <categoryEntry id="b794-c806-caf0-f088" name="Walker" hidden="false"/>
     <categoryEntry id="e16a-f397-0022-313f" name="Death Company Dreadnought" hidden="false"/>
     <categoryEntry id="7ff2-83f8-733d-fa9d" name="Death Company Intercessors" hidden="false"/>
@@ -120,9 +121,6 @@
     <categoryEntry id="4b88-1c49-42ec-862f" name="Librarian Dreadnought" hidden="false"/>
     <categoryEntry id="3339-47f2-4c93-c650" name="Sanguinary Guard" hidden="false"/>
     <categoryEntry id="c1cc-1034-b6ab-9bed" name="The Sanguinor" hidden="false"/>
-    <categoryEntry id="d880-2a0c-6176-6ad7" name="New CategoryEntry1" hidden="false"/>
-    <categoryEntry id="8ceb-6593-69ad-e88c" name="New CategoryEntry2" hidden="false"/>
-    <categoryEntry id="c3a7-432e-ba70-534c" name="New CategoryEntry3" hidden="false"/>
     <categoryEntry id="fc42-97aa-9309-de55" name="Tycho the Lost" hidden="false">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="188a-1d69-52eb-1d34" type="max"/>
@@ -169,12 +167,11 @@
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="VQ72-NJ44-AD23-EB88" name="Astartes grenade launcher - frag" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="IS27-BO45-TV35-NN24" name="Astartes grenade launcher - krak" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="VQ72-NJ44-AD23-EB88" name="Astartes grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9d07-d84a-c319-6340" name="Astartes grenade launcher - krak" hidden="false" targetId="MB31-KU20-QN26-SX95" type="profile"/>
+        <infoLink id="77b8-ea09-fe46-cb90" name="Astartes grenade launcher - frag" hidden="false" targetId="RJ11-ZU26-CZ31-WC46" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -785,6 +782,28 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7f7c-0b4e-1aac-6688" name="Relic Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="59a6-5b43-7734-5aa6" name="Magna-grapple" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ef9a-e884-e8d7-a6d9" name="Magna-grapple" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">The bearer loses the Smoke keyword, but add 2 to Charge rolls made for the bearer if one or more of the targets of that charge is a Monster or Vehicle unit.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7981-c7c3-83a8-5db8" name="Bolt rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f283-ae60-e50c-6085" name="Boltgun" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -2329,6 +2348,58 @@
     <profile id="8195-a291-fc68-57af" name="Damaged: 1-4 Wounds Remaining" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
       <characteristics>
         <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f7bd-43ea-7944-1306" name="Bolt rifle" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">24</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">2</characteristic>
+        <characteristic name="BS" typeId="327b-0f44-3b33-d89e">3</characteristic>
+        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">4</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">1</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+      </characteristics>
+    </profile>
+    <profile id="30aa-453a-c081-06f6" name="Deadly Demise 1" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">When this model is destroyed, roll one D6. On a 6, each unit within 6&quot; suffers 1 mortal wound. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2105-7840-5352-9ad3" name="Deadly Demise 2" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">When this model is destroyed, roll one D6. On a 6, each unit within 6&quot; suffers 2 mortal wounds. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="629b-ad15-c068-f435" name="Deadly Demise 3" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">When this model is destroyed, roll one D6. On a 6, each unit within 6&quot; suffers 3 mortal wounds. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ffb1-f88c-cc0f-c753" name="Deadly Demise 6" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">When this model is destroyed, roll one D6. On a 6, each unit within 6&quot; suffers 6 mortal wounds. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="dc9d-a555-df74-525b" name="Deadly Demise 4" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">When this model is destroyed, roll one D6. On a 6, each unit within 6&quot; suffers 4 mortal wounds. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="ccb9-f10e-75ac-d071" name="Deadly Demise 5" hidden="false" typeId="ab82-d4ba-1289-b036" typeName="Unit Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="5eeb-9250-b4df-84f9">When this model is destroyed, roll one D6. On a 6, each unit within 6&quot; suffers 5 mortal wounds. </characteristic>
+      </characteristics>
+    </profile>
+    <profile id="524e-ab60-2ce1-7751" name="Fights First" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="8857-0af3-3c28-fff2">Units with this ability that are eligible to fight do so in the Fights First step, provided every model in the unit has this ability.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="6317-f515-7e4b-8d27" name="Lone Operative" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="8857-0af3-3c28-fff2">Unless part of an Attached unit, this unit can only be selected as the target of a ranged attack if the attacking model is within 12&quot;.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
