@@ -127,6 +127,8 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="188a-1d69-52eb-1d34" type="max"/>
       </constraints>
     </categoryEntry>
+    <categoryEntry id="a44f-1fc1-9130-9d2b" name="Primaris" hidden="false"/>
+    <categoryEntry id="f150-35b1-f7a2-c3b8" name="Terminator" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="c686-ddd8-4964-3808" name="Gladius Task Force" hidden="false">
@@ -1136,6 +1138,13 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
       </costs>
     </selectionEntry>
     <selectionEntry id="7f7c-0b4e-1aac-6688" name="Relic Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4618-01a7-7f34-bd7f" name="Relic Shield" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">The bearer has a Wounds characteristic of +1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1167,6 +1176,18 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="9c86-9653-e0d9-ebb6" name="Auxiliary grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="add" field="category" value="8809-b638-134e-49f2"/>
+      </modifiers>
+      <profiles>
+        <profile id="9b3e-16d9-fbd7-a0cf" name="Auxiliary grenade launcher" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">The bearer has the GRENADES keyword.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1529,14 +1550,14 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
     </profile>
     <profile id="UI31-CE38-MR15-IN28" name="Heavy bolt pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
-        <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">18</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">1</characteristic>
+        <characteristic name="BS" typeId="327b-0f44-3b33-d89e">2</characteristic>
         <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
-        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">4</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">1</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Pistol</characteristic>
       </characteristics>
     </profile>
     <profile id="TU95-IY53-MK21-EY77" name="Heavy bolt rifle" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1625,13 +1646,13 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
     </profile>
     <profile id="NT45-HU78-FE88-HX17" name="Master-crafted bolt rifle" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
-        <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">24</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">2</characteristic>
+        <characteristic name="BS" typeId="327b-0f44-3b33-d89e">2</characteristic>
         <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">4</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">1</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
         <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
@@ -2888,6 +2909,16 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
         <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+      </characteristics>
+    </profile>
+    <profile id="a3e3-049f-bec2-8829" name="Rites of Battle" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="8857-0af3-3c28-fff2">Once per battle round, one unit from your army with this ability can be targeted by a Stratagem for 0CP, even if another unit from your army has already been targeted by that Stratagem this phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b61c-6212-74a2-31d3" name="The Imperium’s Sword" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="8857-0af3-3c28-fff2">You can re-roll Charge rolls made for this model’s unit.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

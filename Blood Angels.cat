@@ -1501,7 +1501,25 @@
             <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
           </characteristics>
         </profile>
+        <profile id="c2e4-0008-de05-0940" name="Invulnerable Save" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">This unit has a 4+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="9770-3770-c734-c371" name="Rites of Battle" hidden="false" targetId="a3e3-049f-bec2-8829" type="profile"/>
+        <infoLink id="f69e-8f48-3ba3-8694" name="The Imperium’s Sword" hidden="false" targetId="b61c-6212-74a2-31d3" type="profile"/>
+        <infoLink id="43c9-74b8-39d6-464e" name="Deep Strike" hidden="false" targetId="fa05-b9a3-0573-e3cb" type="rule"/>
+        <infoLink id="8844-da20-f406-a0fa" name="Leader" hidden="false" targetId="d0db-b100-0ea0-1e3d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="89f3-e1f8-e710-adb0" name="Infantry" hidden="false" targetId="a91f-6984-d96d-3c37" primary="false"/>
+        <categoryLink id="e45f-b95f-40a6-e812" name="Character" hidden="false" targetId="666e-e392-3b02-2e8e" primary="false"/>
+        <categoryLink id="52fc-a92b-730e-b843" name="Imperium" hidden="false" targetId="135a-561a-09b2-b5e2" primary="false"/>
+        <categoryLink id="eed8-f983-9ac6-585c" name="Captain" hidden="false" targetId="b964-6dd1-80a2-ebdc" primary="false"/>
+        <categoryLink id="6ea0-cab6-3d0f-fdf2" name="Terminator" hidden="false" targetId="f150-35b1-f7a2-c3b8" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1315-5293-4660-06ba" name="Captain In Terminator Armour, 1 Model" hidden="false" collective="false" import="true" type="model">
           <costs>
@@ -1525,24 +1543,31 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="469e-6018-13c1-3317" name="Chainfist" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="38dd-33f2-20cd-e0f7" name="Chainfist" hidden="false" targetId="VZ20-EA58-OM84-SJ45" type="profile"/>
-          </infoLinks>
+          <profiles>
+            <profile id="7ef6-ae2e-d250-0328" name="Chainfist" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
+                <characteristic name="A" typeId="1873-f632-0b12-bd7a">5</characteristic>
+                <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
+                <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">3</characteristic>
+                <characteristic name="S" typeId="9a4c-f516-2825-0fea">8</characteristic>
+                <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">2</characteristic>
+                <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
+                <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Anti-Vehicle 3</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
           <costs>
             <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d96d-812f-641b-5d09" name="Power fist" hidden="false" collective="false" import="true" type="upgrade">
           <infoLinks>
-            <infoLink id="73a6-3503-399a-0c2d" name="Power fist" hidden="false" targetId="TN74-UO51-CE63-NL83" type="profile"/>
-          </infoLinks>
-          <costs>
-            <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="f88a-37fe-f670-b75e" name="Relic weapon" hidden="false" collective="false" import="true" type="upgrade">
-          <infoLinks>
-            <infoLink id="5e6b-8aaa-8ccc-d863" name="Relic weapon" hidden="false" targetId="WY51-KT68-CF22-VJ83" type="profile"/>
+            <infoLink id="6659-d0c5-4e55-caf9" name="Power fist" hidden="false" targetId="TN74-UO51-CE63-NL83" type="profile">
+              <modifiers>
+                <modifier type="set" field="1873-f632-0b12-bd7a" value="5"/>
+              </modifiers>
+            </infoLink>
           </infoLinks>
           <costs>
             <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
@@ -1575,6 +1600,8 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="a842-1e39-eb72-a1e8" name="Enhancements" hidden="false" collective="false" import="true" targetId="8159-53d9-ad3c-c734" type="selectionEntryGroup"/>
+        <entryLink id="de55-b549-51d3-219f" name="Auxiliary grenade launcher" hidden="false" collective="false" import="true" targetId="9c86-9653-e0d9-ebb6" type="selectionEntry"/>
+        <entryLink id="3a61-e979-30b7-16dc" name="Relic Shield" hidden="false" collective="false" import="true" targetId="7f7c-0b4e-1aac-6688" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
@@ -4451,15 +4478,32 @@ Stratagem for 0CP.</characteristic>
       <profiles>
         <profile id="4624-48f6-892e-7323" name="Primaris Captain" hidden="false" typeId="e962-393c-32b8-caa2" typeName="Unit Profile">
           <characteristics>
-            <characteristic name="M" typeId="6aab-6245-0d79-e208"/>
-            <characteristic name="T" typeId="ac53-9cb8-d99e-5123"/>
-            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e"/>
-            <characteristic name="W" typeId="8b07-f47d-5486-bec4"/>
-            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0"/>
-            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e"/>
+            <characteristic name="M" typeId="6aab-6245-0d79-e208">6</characteristic>
+            <characteristic name="T" typeId="ac53-9cb8-d99e-5123">4</characteristic>
+            <characteristic name="Sv" typeId="79d7-65b1-ffe3-e08e">3</characteristic>
+            <characteristic name="W" typeId="8b07-f47d-5486-bec4">5</characteristic>
+            <characteristic name="LD" typeId="f3ad-e19f-7ba0-33d0">6</characteristic>
+            <characteristic name="OC" typeId="ec26-edf1-403b-6f4e">1</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3aa6-5a59-7351-7ce7" name="Finest Hour" hidden="false" typeId="cd24-57cd-9257-fc87" typeName="Character Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="8857-0af3-3c28-fff2">Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of melee weapons equipped by this model and those weapons have the [DEVASTATING WOUNDS] ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="25e4-3307-4fa6-c78f" name="Rites of Battle" hidden="false" targetId="a3e3-049f-bec2-8829" type="profile"/>
+        <infoLink id="6b7d-a851-7e05-6c29" name="Leader" hidden="false" targetId="d0db-b100-0ea0-1e3d" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7f54-79d7-a315-a2bf" name="Infantry" hidden="false" targetId="a91f-6984-d96d-3c37" primary="false"/>
+        <categoryLink id="136b-0a2c-f9bf-6ee9" name="Character" hidden="false" targetId="666e-e392-3b02-2e8e" primary="false"/>
+        <categoryLink id="08fc-67a7-e0b1-8d14" name="Grenades" hidden="false" targetId="8809-b638-134e-49f2" primary="false"/>
+        <categoryLink id="a9d4-bd2e-4761-59aa" name="Imperium" hidden="false" targetId="135a-561a-09b2-b5e2" primary="false"/>
+        <categoryLink id="91c3-7200-2256-ad2a" name="Tacticus" hidden="false" targetId="6c5b-c144-c0c7-5b60" primary="false"/>
+        <categoryLink id="c6c9-485f-0b67-f26b" name="Captain" hidden="false" targetId="b964-6dd1-80a2-ebdc" primary="false"/>
+      </categoryLinks>
       <selectionEntries>
         <selectionEntry id="2748-b3d4-8b3c-2864" name="Primaris Captain, 1 Model" hidden="false" collective="false" import="true" type="model">
           <costs>
@@ -4467,8 +4511,75 @@ Stratagem for 0CP.</characteristic>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4515-e50e-a890-b867" name="Weapon Selection" hidden="false" collective="false" import="true">
+          <categoryLinks>
+            <categoryLink id="9c3c-d88a-4e2a-3a64" name="Primaris" hidden="false" targetId="a44f-1fc1-9130-9d2b" primary="false"/>
+            <categoryLink id="e039-722b-bb11-ec0c" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="7cf5-5586-572e-0345" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="1126-4eb8-b68c-398c" name="Bolt pistol" hidden="false" targetId="XJ88-LG34-OE48-IS10" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dc5a-ee26-3c61-d358" name="Heavy bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="6bf4-0e56-e4b0-e6a7" name="Heavy bolt pistol" hidden="false" targetId="UI31-CE38-MR15-IN28" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4382-295d-4fb5-5972" name="Master-crafted bolt rifle" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="0078-7709-1322-556f" name="Master-crafted bolt rifle" hidden="false" targetId="NT45-HU78-FE88-HX17" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9ec7-002a-ee35-0243" name="Plasma pistol" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="cf8c-3603-ecbf-d68e" name="Plasma Pistol" hidden="false" targetId="7a55-2bcd-c9d5-d901" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3a69-99c2-f606-8b41" name="Close combat weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="7328-0a93-ab5e-0586" name="Close combat weapon" hidden="false" targetId="WW15-TX37-UD21-SX26" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a29a-b70b-3c91-923b" name="Master-crafted powerweapon" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="f96a-5155-5ce2-74f4" name="Master-crafted powerweapon" hidden="false" targetId="GU16-MZ26-HI65-ZP12" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3fbe-ba05-77ec-ebe0" name="Power fist" hidden="false" collective="false" import="true" type="upgrade">
+              <infoLinks>
+                <infoLink id="5be2-a529-d935-6c18" name="Power fist" hidden="false" targetId="TN74-UO51-CE63-NL83" type="profile"/>
+              </infoLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="e11d-30a7-7a6c-2c8d" name="Enhancements" hidden="false" collective="false" import="true" targetId="8159-53d9-ad3c-c734" type="selectionEntryGroup"/>
+        <entryLink id="369c-57a3-5823-3acc" name="Relic Shield" hidden="false" collective="false" import="true" targetId="7f7c-0b4e-1aac-6688" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
