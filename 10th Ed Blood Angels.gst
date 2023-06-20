@@ -170,6 +170,9 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
   </forceEntries>
   <sharedSelectionEntries>
     <selectionEntry id="EB82-QT38-NQ66-AX38" name="Absolver bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c2c0-af33-ea20-a938" name="Absolver bolt pistol" hidden="false" targetId="HG67-YL70-KF40-CZ72" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -192,16 +195,25 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
       </costs>
     </selectionEntry>
     <selectionEntry id="VS87-QR49-GQ14-HJ57" name="Bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="50ef-47d3-ea26-b348" name="Bolt pistol" hidden="false" targetId="XJ88-LG34-OE48-IS10" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="SN25-YN39-FZ25-PW32" name="Boltstorm gauntlet" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2dcc-dc86-c1bf-48f9" name="Boltstorm gauntlet" hidden="false" targetId="FI97-YL18-AT93-AT28" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="NT78-CL55-KS46-SD36" name="Chainfist" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="25bc-e5cf-a2be-29a1" name="Chainfist" hidden="false" targetId="VZ20-EA58-OM84-SJ45" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -215,141 +227,217 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
       </costs>
     </selectionEntry>
     <selectionEntry id="KH52-IB89-CU51-RA17" name="Combat knife" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2c8c-928c-eee7-da2d" name="Combat knife" hidden="false" targetId="ZU30-DW88-MH28-SW82" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="MH62-RQ45-MS14-CN94" name="Combi-weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b62f-fca0-d5b3-acb4" name="Combi-weapon" hidden="false" targetId="PL46-II13-CU51-DT88" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="MS61-UK74-JO93-GN29" name="Crizius arcanum" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="MS61-UK74-JO93-GN29" name="Crozius arcanum" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8979-16bf-6ac7-862e" name="Crizius arcanum" hidden="false" targetId="JL61-DC88-DM20-UO46" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="OT42-LM36-GF76-GA40" name="Flamer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2b6c-3f14-4ae4-2c5e" name="Flamer" hidden="false" targetId="QS53-WY55-LW38-CI35" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ZQ74-CI76-DP91-UR61" name="Force weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="03aa-04cd-7508-9529" name="Force weapon" hidden="false" targetId="SO26-IF33-TQ11-IZ57" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="UG15-VW61-IP66-YS19" name="Forge bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ac4f-446f-3b34-b9d7" name="Forge bolter" hidden="false" targetId="HF94-LW14-JM37-QM28" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="NW66-CE63-YV67-FR87" name="Grav-pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f4d9-70d4-7717-9c9d" name="Grav-pistol" hidden="false" targetId="GJ40-OQ86-KV27-SW35" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="OB84-YU38-OQ52-GR57" name="Hand flamer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="51a5-706a-821f-c3c7" name="Hand flamer" hidden="false" targetId="WR23-IJ45-GF54-TR56" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="RZ53-ST20-VJ35-YY27" name="Haywire mine" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="536c-155d-d72e-5656" name="Haywire mine" hidden="false" targetId="NL40-OX60-KL87-GO89" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="CL72-CS80-NA31-VJ76" name="Heavy bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5248-e0f6-9e8a-c5e6" name="Heavy bolt pistol" hidden="false" targetId="UI31-CE38-MR15-IN28" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="KK66-AM45-PJ49-LI73" name="Heavy bolt rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8daa-d35d-fd9e-05b2" name="Heavy bolt rifle" hidden="false" targetId="TU95-IY53-MK21-EY77" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="UU53-VV48-GH25-OL43" name="Heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d459-1596-4522-13ef" name="Heavy bolter" hidden="false" targetId="FH80-XA26-AD50-VG65" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="PO67-QF99-MF82-GE56" name="Helix Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4998-afc6-11a3-2d4e" name="Helix Gauntlet" hidden="false" targetId="LE41-DQ57-PT42-DQ83" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="YF23-WT76-OQ43-ZX28" name="Inferno pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e18a-4a6e-2578-49ca" name="Inferno pistol" hidden="false" targetId="LA86-NS48-BQ57-TM59" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="SA19-OP61-VN73-IM32" name="Infiltrator Comms Array" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f817-3fe2-a9a3-5b90" name="Infiltrator Comms Array" hidden="false" targetId="JM97-SE89-UJ48-JA25" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="IJ42-OI82-BL81-BG58" name="Instigator bolt carbine" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="db26-8a69-8d12-8ae9" name="Instigator bolt carbine" hidden="false" targetId="BL90-LB60-QN11-SL54" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="QA52-EH43-QH26-PD49" name="Marksman bolt carbine" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0c38-4015-139a-ff31" name="Marksman bolt carbine" hidden="false" targetId="JH53-GT83-AH98-KZ13" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="FU34-VV54-MK17-GN98" name="Master-crafted bolt rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="56f4-ceb0-afe2-a04f" name="Master-crafted bolt rifle" hidden="false" targetId="NT45-HU78-FE88-HX17" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="RP61-VX79-SH64-OB79" name="Master-crafted boltgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cbde-0d13-850f-173b" name="Master-crafted boltgun" hidden="false" targetId="RQ21-VY43-UL32-KN66" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="EG18-YZ60-QL58-JI96" name="Master-crafted heavy bolt rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="831c-0df8-eba9-9763" name="Master-crafted heavy bolt rifle" hidden="false" targetId="JP97-MQ93-UI65-XR55" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="AQ24-JV85-JA86-IN11" name="Master-crafted powerweapon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="254b-948b-b8fe-2e78" name="Master-crafted powerweapon" hidden="false" targetId="GU16-MZ26-HI65-ZP12" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="QJ75-CY34-OR14-ZZ56" name="Missile launcher - frag" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="MQ23-IE83-ZO12-MU68" name="Missile launcher - krak" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="QJ75-CY34-OR14-ZZ56" name="Missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="75e5-5cbd-3047-ae50" name="Missile launcher" hidden="false" targetId="dff6-ebcd-beb6-75ba" type="infoGroup"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="SR43-QF76-TP19-FX99" name="Occulus bolt carbine" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="38b1-c6a9-9b41-201f" name="Occulus bolt carbine" hidden="false" targetId="JJ29-GD17-YP70-DV73" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="HS87-HS56-SQ68-XC20" name="Omnissian power axe" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="527c-0db2-6d00-b430" name="Omnissian power axe" hidden="false" targetId="WE92-OA53-AS74-EU48" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="GG58-NE70-WE71-UT43" name="Paired combat blades" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="454f-721c-873b-3281" name="Paired combat blades" hidden="false" targetId="SJ11-XG90-ST98-ZI60" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="NX14-UF94-KC13-AI77" name="Plasma cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="471d-3df7-dcd6-5e8a" name="Plasma cannon" hidden="false" targetId="IO97-HK70-EC52-GL36" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="IZ94-KB20-LQ73-WN17" name="Plasma gun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d18a-53c8-540e-9ec1" name="Plasma gun" hidden="false" targetId="WK79-SI27-KB12-SG34" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -371,56 +459,89 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
       </costs>
     </selectionEntry>
     <selectionEntry id="ZO79-UM56-AN18-IM70" name="Pyreblaster" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f43c-04d1-7ccc-7454" name="Pyreblaster" hidden="false" targetId="MO90-IE71-SW85-XL43" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="HV78-DQ59-HN14-KC93" name="Reductor pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4a61-ebb5-0068-5b00" name="Reductor pistol" hidden="false" targetId="NB58-TD72-FM99-US13" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="TF97-IW69-GW78-PZ86" name="Relic blade" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="71b7-709b-6def-9705" name="Relic blade" hidden="false" targetId="YP54-IF34-CM55-AM91" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="OX19-QQ34-DN23-XD52" name="Relic chainsword" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4967-8bca-f917-e9f0" name="Relic chainsword" hidden="false" targetId="GJ24-CY84-YH21-JJ68" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="YA65-VT71-VE96-GS37" name="Relic fist" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="08fd-65a2-655c-9570" name="Relic fist" hidden="false" targetId="WP55-PC71-EO97-FY84" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="RU81-CD44-WF81-JE75" name="Relic weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0144-e86b-6e7c-9d78" name="Relic weapon" hidden="false" targetId="WY51-KT68-CF22-VJ83" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="HF46-JF73-YY26-LD10" name="Scout sniper rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="32b8-bdbe-e4c8-e76b" name="Scout sniper rifle" hidden="false" targetId="FX77-LX14-EN47-XZ11" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ZU34-KM14-MH97-AG45" name="Servitor servo-arm" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e4ee-4671-aa18-9a57" name="Servitor servo-arm" hidden="false" targetId="KC56-YA48-FD25-GJ16" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="TR79-SC57-GU14-IQ84" name="Servo-arm" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="77f7-7932-3241-affb" name="Servo-arm" hidden="false" targetId="DZ20-SL95-PR68-GG29" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="XM62-CT38-DH47-TJ34" name="Smite" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5b5f-01c7-22a4-c874" name="Smite" hidden="false" targetId="FU30-TV47-YX94-ED48" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="YX52-CO60-ST50-CI98" name="Storm Bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9743-25dc-4183-1f3f" name="Storm Bolter" hidden="false" targetId="OG17-HN83-DD90-SV54" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -434,11 +555,17 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
       </costs>
     </selectionEntry>
     <selectionEntry id="UL43-JC21-ID34-OP91" name="Twin bolt rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7dcd-156b-d7b6-98f4" name="Twin bolt rifle" hidden="false" targetId="NJ57-BT50-IK20-YX43" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="LC15-YK72-PE76-UM76" name="Twin lightning claws" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9f47-a887-58c6-edaa" name="Twin lightning claws" hidden="false" targetId="HZ23-QS82-WF18-LH76" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -452,16 +579,25 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
       </costs>
     </selectionEntry>
     <selectionEntry id="SC36-FS42-BE91-PM42" name="Neo-volkite pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ce55-7074-69c3-7e31" name="Neo-volkite pistol" hidden="false" targetId="RW94-TT30-BD69-MG19" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="WB83-YD17-EP47-WQ77" name="Champion&apos;s blade" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ec7d-2025-3db4-d852" name="Champion&apos;s blade" hidden="false" targetId="MO24-EC48-JK72-HN42" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ED37-UJ96-NB30-KZ55" name="Heirloom weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="32f7-5f28-2e06-5b36" name="Heirloom weapon" hidden="false" targetId="CT67-DR17-SO41-LU77" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -472,66 +608,97 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
       </costs>
     </selectionEntry>
     <selectionEntry id="AY82-WF72-DJ37-XU14" name="Sternguard bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4bd1-f76e-cf2c-b675" name="Sternguard bolt pistol" hidden="false" targetId="TY64-QX57-OH23-TU28" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="XK39-ML92-FR43-XH64" name="Sternguard bolt rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1761-e9ea-6b0d-7e6e" name="Sternguard bolt rifle" hidden="false" targetId="RE74-QR60-BL82-OK87" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="UV29-WU70-CS95-BI86" name="Sternguard heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="0490-a0de-b7cc-abd5" name="Sternguard heavy bolter" hidden="false" targetId="YX56-MM79-FH90-WB50" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ED11-SY56-VB69-NX23" name="Executioner relic blade" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c3ee-5620-4690-e24f" name="Executioner relic blade" hidden="false" targetId="XW78-GD82-GZ49-LD81" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ZK75-TT66-TV16-ND46" name="Storm shield" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f527-bd0e-2397-778b" name="Storm shield" hidden="false" targetId="XJ27-CE50-FO30-AK71" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="SQ49-XP31-KW70-CY23" name="Bolt carbine" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5945-c1dd-5687-ba38" name="Bolt carbine" hidden="false" targetId="DY12-OK61-ZC47-XB53" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="RQ61-HU36-VP64-FM26" name="Special issue bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5cdb-20f8-c9b1-d40e" name="Special issue bolt pistol" hidden="false" targetId="JK71-KC98-KW96-CR13" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="GG66-WF78-YG19-WB46" name="Auto boltstorm gauntlets" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="128e-f65a-ece1-e90c" name="Auto boltstorm gauntlets" hidden="false" targetId="VC46-HB44-DA66-BH72" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="FD74-AG60-UB99-UR64" name="Flamestorm gauntlest" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5a85-9cb2-243f-2b9a" name="Flamestorm gauntlest" hidden="false" targetId="GN41-BI26-UG51-MN36" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="IP58-MA34-MC72-NR88" name="Fragstorm grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1760-d37a-03dd-0812" name="Fragstorm grenade launcher" hidden="false" targetId="TZ64-WJ88-TU44-HN59" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="OM77-JC53-SM31-BD74" name="Cyclone missile launcher - frag" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="MJ75-DO26-OU55-AZ34" name="Cyclone missile launcher - krak" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="OM77-JC53-SM31-BD74" name="Cyclone missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b8c2-8a86-3150-3693" name="Cyclone missile launcher" hidden="false" targetId="baf2-d6b8-49c4-3dc3" type="infoGroup"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="LA30-HE84-PA78-FL79" name="Assault cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9034-c77b-b195-5de6" name="Assault cannon" hidden="false" targetId="TC78-BO72-SI52-IZ64" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -545,271 +712,425 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
       </costs>
     </selectionEntry>
     <selectionEntry id="EV19-JV22-ZA92-OE12" name="Plasma blaster" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a57e-4da3-f53f-baf5" name="Plasma blaster" hidden="false" targetId="ZX26-QL53-KH74-ON69" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="WA44-MD87-DY94-OY14" name="Reaper autocannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="037b-7f33-2510-919e" name="Reaper autocannon" hidden="false" targetId="PY74-QB35-MD33-PK63" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="YQ41-TI33-FO27-TT25" name="Volkite charger" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8f7e-c3bb-7187-c6e8" name="Volkite charger" hidden="false" targetId="XY66-QM43-HX20-YH95" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="MY51-EP51-SK80-KZ30" name="Centurion bolters" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1087-c181-8852-a563" name="Centurion bolters" hidden="false" targetId="SR10-EJ88-CO65-NQ84" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ZM87-WV76-OF47-JS34" name="Twin flamer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e16e-a71b-f0df-dfe1" name="Twin flamer" hidden="false" targetId="TS68-BR50-EV26-SS75" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="WZ44-ZD31-TH30-IB71" name="Twin meltagun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7b08-9abc-6356-0b96" name="Twin meltagun" hidden="false" targetId="MU46-VA85-MU48-EX93" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="IW12-QE47-IK88-ZF78" name="Siege drills" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f616-2c77-2ee6-9d7f" name="Siege drills" hidden="false" targetId="EF24-KG42-KK94-NI59" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="UF19-JJ96-EE65-DK94" name="Centurion fists" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1d67-1f13-9c2c-891b" name="Centurion fists" hidden="false" targetId="IG28-MW78-NM42-XE92" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="KP51-AQ18-EK60-NQ93" name="Centurion missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3344-f02d-6a8c-af0d" name="Centurion missile launcher" hidden="false" targetId="LZ64-DY55-OE80-VJ32" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="SZ53-RW28-MI73-HM49" name="Grav-cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="df24-91d8-c649-dca2" name="Grav-cannon" hidden="false" targetId="PO51-BX47-FG39-LW18" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="KY41-OA98-KV87-ZU35" name="Twin heavy bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c79f-bc18-ec3c-c275" name="Twin heavy bolter" hidden="false" targetId="MS23-AI53-EV10-MO81" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="VV27-SV33-HF64-VI52" name="Twin lascannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3c78-fce4-f4af-ae29" name="Twin lascannon" hidden="false" targetId="OR27-PL48-XR91-ZD74" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="WF20-BO46-RP61-JN72" name="Incendium cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="de36-c319-423a-0ff0" name="Incendium cannon" hidden="false" targetId="LD71-CM54-TF28-CW92" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="CB89-ZN72-EL94-RC94" name="Twin ironhail autocannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="42d6-6c84-4311-9a3c" name="Twin ironhail autocannon" hidden="false" targetId="WQ54-JL50-SS17-IO82" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="FS99-TU47-PL12-JM52" name="Twin ironhail heavy stubber" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2611-c047-16a6-3afd" name="Twin icarus ironhail heavy stubber" hidden="false" targetId="II43-LB29-BC77-UA90" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="BE92-PL37-MS95-WM73" name="Invictor fist" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c570-e53f-4a45-b3a6" name="Invictor fist" hidden="false" targetId="ZU35-YG28-NI58-JW31" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="YX84-MI12-SS24-FG75" name="Heavy plasma cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="51ba-0a11-7055-e19a" name="Heavy plasma cannon" hidden="false" targetId="UW52-II77-MK76-KO60" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="OT46-WF16-IJ80-PW38" name="Multi-melta" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b82d-1b8b-8a09-8126" name="Multi-melta" hidden="false" targetId="IW92-YK91-JP35-FG27" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="NI70-CS82-WH65-HV64" name="Dreadnought combat weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6ccc-c3f2-ec89-a6e5" name="Dreadnought combat weapon" hidden="false" targetId="PL65-JF51-HU77-IF61" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="RX78-YZ13-OW45-DW77" name="Kheres-pattern assault cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f12c-7cd9-88e9-1e58" name="Kheres-pattern assault cannon" hidden="false" targetId="MH80-MN62-PB43-NF22" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="HC15-TQ23-VQ94-LX21" name="Hurricane Bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f54f-d465-f0f6-7bfe" name="Hunter-killer missile" hidden="false" targetId="YM87-JD47-XD24-PD42" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="AQ36-MD19-TY24-BU65" name="Hunter-killer missile" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3ae1-0445-a9f4-4e89" name="Hunter-killer missile" hidden="false" targetId="YM87-JD47-XD24-PD42" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="SJ71-GF88-YS30-PA85" name="Dreadnought chainfist" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a3c2-7fbb-ddbd-7e4f" name="Dreadnought chainfist" hidden="false" targetId="DO74-HY28-PA84-OA57" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="VK45-GB62-OG36-ET83" name="Seismic hammer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4a50-379d-0b96-925a" name="Seismic hammer" hidden="false" targetId="UL97-WW97-SF97-OT36" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="CP10-FS87-IN18-FV27" name="Heavy onslaught gatling canon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="453b-4c5f-17fb-5c13" name="Heavy onslaught gatling canon" hidden="false" targetId="NC10-QS55-US62-MZ69" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="AD59-SQ34-LJ82-HY16" name="Icarus rocket pod" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5909-63b8-c17d-0b35" name="Icarus rocket pod" hidden="false" targetId="ZP41-KM28-JU84-CA39" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="YA41-MN79-FT21-TS36" name="Macro plasma incenerator" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7a58-139e-2c39-06ee" name="Macro plasma incenerator" hidden="false" targetId="VY91-AA23-HW35-CZ60" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="MK60-UZ96-MR56-PN13" name="Onslaught gatling cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="dfc7-01d4-4452-ac06" name="Onslaught gatling cannon" hidden="false" targetId="GN73-RH61-GP57-IA63" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="VM48-KY89-HE64-NL47" name="Twin fragstorm grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f027-5f84-ebff-087c" name="Twin fragstorm grenade launcher" hidden="false" targetId="NX81-FD39-FB94-FO28" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="QM25-NU84-JL20-AX94" name="Twin storm bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="fdbf-c0b9-f423-f7cf" name="Twin storm bolter" hidden="false" targetId="SF29-FS48-NQ60-QQ76" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="CL74-CH62-AQ44-EE57" name="Redemptor fist" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="2dd1-9974-3ec0-c5f0" name="Redemptor fist" hidden="false" targetId="VT84-SP86-RT86-PB37" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="TQ85-HJ98-BY66-VQ12" name="Brutalis bolt rifles" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4b8b-dccb-db50-e460" name="Brutalis bolt rifles" hidden="false" targetId="XF18-IQ44-JI69-FC41" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="KD37-SW93-YO64-ZQ88" name="Twin icarus ironhail heavy stubber" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a404-05fb-29dc-7451" name="Twin icarus ironhail heavy stubber" hidden="false" targetId="II43-LB29-BC77-UA90" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="TG83-OB18-KB36-NM73" name="Twin multi-melta" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e635-1e12-d2a3-82f2" name="Twin multi-melta" hidden="false" targetId="KS51-TL54-XE33-GV35" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="AN25-YP97-LI69-FM36" name="Brutalis fists" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="297f-f237-2950-5967" name="Brutalis fists" hidden="false" targetId="VL48-RG74-WK14-WG36" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="VC61-WA75-PF74-TB66" name="Brutalis talons" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="e2f0-3809-6ad9-9d0a" name="Brutalis talons" hidden="false" targetId="EQ18-ZG77-GZ27-MC42" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="OL33-MS20-KM54-TO98" name="Ballistus missile launcher - frag" hidden="false" collective="false" import="true" type="upgrade">
-      <costs>
-        <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="LA71-EI36-UM68-JT97" name="Ballistus missile launcher - krak" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="OL33-MS20-KM54-TO98" name="Ballistus missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="4431-935a-3d25-45e8" name="Ballistus Missile Launcher" hidden="false" targetId="3589-954a-8188-51f5" type="infoGroup"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="HG88-KV85-BB16-IX33" name="Ballistus lascannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a299-dcc3-89b2-a6f7" name="Ballistus lascannon" hidden="false" targetId="ZM50-DF51-AS22-SC59" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="VH52-ZG21-HZ42-RP88" name="Armoured feet" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b3f9-b49a-02e8-6aec" name="Armoured feet" hidden="false" targetId="HP43-KT13-YZ58-RU94" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="UV37-CB11-SW45-SU56" name="Eviscerator" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="83b5-b12e-486b-4a7f" name="Eviscerator" hidden="false" targetId="VB35-RG48-KQ70-HP26" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="CB63-FA10-ML63-AY93" name="Accelerator autocannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="08a2-d32b-c2cb-b40c" name="Accelerator autocannon" hidden="false" targetId="RE67-WY23-RB92-SV40" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="RP53-TM83-KZ31-KP32" name="Assault bolters" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="97ee-2bbc-cdaa-98d1" name="Assault bolters" hidden="false" targetId="JH73-KI19-UJ37-WD32" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="KV37-EF32-BC88-AJ86" name="Plasma exterminators" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3860-926c-2d67-befb" name="Plasma exterminators" hidden="false" targetId="CJ24-ZU17-QG16-UB52" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="LX99-ZK73-OE68-JU98" name="Plasma incinerator" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="de9a-9968-ef88-df4e" name="Plasma incinerator" hidden="false" targetId="LT23-ZN45-CF61-MW83" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="RX18-NW65-QS51-YM48" name="Bolt sniper rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b4ac-bf7c-4033-e27b" name="Bolt sniper rifle" hidden="false" targetId="PO64-SR12-SR18-SV45" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="UN92-BF80-WC16-QK66" name="Las fusil" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="96b4-d194-898b-924c" name="Las fusil" hidden="false" targetId="UK85-EC33-SP97-EM18" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="AV51-ZY88-VX68-JY14" name="Melta rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="5e49-0079-3f83-38b0" name="Melta rifle" hidden="false" targetId="LN38-MG23-BK55-GZ33" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="VN82-NK10-RG57-RY65" name="Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9078-e103-4869-f0af" name="Lascannon" hidden="false" targetId="NE15-LF57-MB23-OG97" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="HD22-DG48-GC51-RQ94" name="Castellan launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="589d-5ba8-f5a6-9e15" name="Castellan launcher" hidden="false" targetId="YI78-ST12-CH63-SA53" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ZQ29-RH11-IM69-KW53" name="Superfrag rocket launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a934-fd4e-5ea2-de23" name="Superfrag rocket launcher" hidden="false" targetId="PT56-MG34-NL69-OT29" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="IC80-CB58-ZJ74-FX96" name="Superkrak rocket launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6982-d667-4836-5013" name="Superkrak rocket launcher" hidden="false" targetId="JF53-AR40-AS75-XP24" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ZY40-IH21-JY65-IA23" name="Vengor launcher" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="92d0-f431-82ba-806c" name="Vengor launcher" hidden="false" targetId="VQ84-JI11-AA93-UO27" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="472d-04a4-b441-e708" name="Meltagun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ffc5-2f17-c1d3-b6da" name="Meltagun" hidden="false" targetId="619d-e166-74e8-aa26" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -832,11 +1153,17 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
       </costs>
     </selectionEntry>
     <selectionEntry id="7981-c7c3-83a8-5db8" name="Bolt rifle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d1e5-ef8a-1dbc-b5c1" name="Bolt rifle" hidden="false" targetId="f7bd-43ea-7944-1306" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f283-ae60-e50c-6085" name="Boltgun" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="f07d-6d8e-16e9-5ab4" name="Boltgun" hidden="false" targetId="2a81-1c53-38d6-e16c" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -1070,14 +1397,14 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
     </profile>
     <profile id="VZ20-EA58-OM84-SJ45" name="Chainfist" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">5</characteristic>
         <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
-        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
-        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">3</characteristic>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">8</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">2</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Anti-Vehicle 3</characteristic>
       </characteristics>
     </profile>
     <profile id="WW15-TX37-UD21-SX26" name="Close combat weapon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1113,10 +1440,10 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
         <characteristic name="S" typeId="9a4c-f516-2825-0fea">4</characteristic>
         <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">0</characteristic>
         <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
-        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Anti-Infantry 4, Devastating Wounds, Rapid Fire 1</characteristic>
       </characteristics>
     </profile>
-    <profile id="JL61-DC88-DM20-UO46" name="Crizius arcanum" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+    <profile id="JL61-DC88-DM20-UO46" name="Crozius arcanum" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
         <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
@@ -1562,14 +1889,14 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
     </profile>
     <profile id="OG17-HN83-DD90-SV54" name="Storm Bolter" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
-        <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">24</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">2</characteristic>
+        <characteristic name="BS" typeId="327b-0f44-3b33-d89e">2</characteristic>
         <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
-        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">4</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">0</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Rapid Fire 2</characteristic>
       </characteristics>
     </profile>
     <profile id="KC35-DN46-VS77-VC66" name="Thunder hammer" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2551,6 +2878,18 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
         <characteristic name="Description" typeId="8857-0af3-3c28-fff2">Unless part of an Attached unit, this unit can only be selected as the target of a ranged attack if the attacking model is within 12&quot;.</characteristic>
       </characteristics>
     </profile>
+    <profile id="2a81-1c53-38d6-e16c" name="Boltgun" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
+        <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
+        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedInfoGroups>
     <infoGroup id="7a55-2bcd-c9d5-d901" name="Plasma Pistol" hidden="false">
@@ -2580,6 +2919,24 @@ ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in mo
           </characteristics>
         </profile>
       </profiles>
+    </infoGroup>
+    <infoGroup id="3589-954a-8188-51f5" name="Ballistus Missile Launcher" hidden="false">
+      <infoLinks>
+        <infoLink id="f991-f1d1-a732-bbcf" name="Ballistus missile launcher - frag" hidden="false" targetId="DX40-SO30-UG72-YB25" type="profile"/>
+        <infoLink id="38e2-513a-1e84-1ac6" name="Ballistus missile launcher - krak" hidden="false" targetId="IF97-UH32-JS56-DY84" type="profile"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="baf2-d6b8-49c4-3dc3" name="Cyclone missile launcher" hidden="false">
+      <infoLinks>
+        <infoLink id="08ff-7b81-b2a9-f079" name="Cyclone missile launcher - frag" hidden="false" targetId="XC79-FQ70-JK80-XR14" type="profile"/>
+        <infoLink id="7599-9074-30e0-7616" name="Cyclone missile launcher - krak" hidden="false" targetId="UR89-OI39-KD45-FS16" type="profile"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="dff6-ebcd-beb6-75ba" name="Missile launcher" hidden="false">
+      <infoLinks>
+        <infoLink id="04b3-760c-66bc-b875" name="Missile launcher - frag" hidden="false" targetId="II46-PH39-CB49-NY66" type="profile"/>
+        <infoLink id="1a1f-3a20-4338-8c7c" name="Missile launcher - krak" hidden="false" targetId="FA53-RR17-XG19-DF79" type="profile"/>
+      </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
 </gameSystem>

@@ -1508,6 +1508,70 @@
             <cost name="Points" typeId="4398-3629-920e-f774" value="95.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="6caa-1f23-6ca9-22c1" name="Combi-weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="25c7-1079-ed06-77b0" name="Combi-weapon" hidden="false" targetId="PL46-II13-CU51-DT88" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2cb9-ee91-0025-172e" name="Storm Bolter" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="b2f7-c07e-2c8f-6c26" name="Storm Bolter" hidden="false" targetId="OG17-HN83-DD90-SV54" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="469e-6018-13c1-3317" name="Chainfist" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="38dd-33f2-20cd-e0f7" name="Chainfist" hidden="false" targetId="VZ20-EA58-OM84-SJ45" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d96d-812f-641b-5d09" name="Power fist" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="73a6-3503-399a-0c2d" name="Power fist" hidden="false" targetId="TN74-UO51-CE63-NL83" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f88a-37fe-f670-b75e" name="Relic weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="5e6b-8aaa-8ccc-d863" name="Relic weapon" hidden="false" targetId="WY51-KT68-CF22-VJ83" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1a77-ce84-9272-1c57" name="Relic weapon" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="96cc-2757-7e91-d4d9" name="Relic weapon" hidden="false" targetId="WY51-KT68-CF22-VJ83" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="116c-f2c0-0873-d3b2" name="Thunder hammer" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="10e7-0534-f834-12ed" name="Thunder hammer" hidden="false" targetId="KC35-DN46-VS77-VC66" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="43f1-78d1-3f8c-31bb" name="Twin lightning claws" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="a523-a186-0101-667a" name="Twin lascannon" hidden="false" targetId="OR27-PL48-XR91-ZD74" type="profile"/>
+          </infoLinks>
+          <costs>
+            <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="a842-1e39-eb72-a1e8" name="Enhancements" hidden="false" collective="false" import="true" targetId="8159-53d9-ad3c-c734" type="selectionEntryGroup"/>
