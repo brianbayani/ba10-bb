@@ -47,6 +47,11 @@
         <characteristicType id="8857-0af3-3c28-fff2" name="Description"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="cddb-209a-a7bf-0c75" name="Enhancement">
+      <characteristicTypes>
+        <characteristicType id="36c2-a213-a930-3f1d" name="Description"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="a91f-6984-d96d-3c37" name="Infantry" hidden="false"/>
@@ -76,11 +81,7 @@
       </constraints>
     </categoryEntry>
     <categoryEntry id="23ca-f93e-49dd-dc19" name="Baal Predator" hidden="false"/>
-    <categoryEntry id="8042-4c44-5f3e-ad35" name="Adeptus Astartes" hidden="false">
-      <infoLinks>
-        <infoLink id="18b0-0a8b-7ac2-5667" name="Oath of Moment" hidden="false" targetId="80c7-b138-11bb-fcc3" type="rule"/>
-      </infoLinks>
-    </categoryEntry>
+    <categoryEntry id="8042-4c44-5f3e-ad35" name="Adeptus Astartes" hidden="false"/>
     <categoryEntry id="87fe-69e5-08cf-d1ec" name="Blood Angels" hidden="false"/>
     <categoryEntry id="5f3c-b9cc-22ac-64c0" name="Sanguinary Priest" hidden="false"/>
     <categoryEntry id="b964-6dd1-80a2-ebdc" name="Captain" hidden="false"/>
@@ -132,6 +133,23 @@
       <constraints>
         <constraint field="forces" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="true" id="49f7-f211-bf92-2110" type="max"/>
       </constraints>
+      <rules>
+        <rule id="ac08-ca8d-8010-5685" name="Combat Doctrines" hidden="false">
+          <description>At the start of your Command phase, you can select one of the Combat Doctrines listed below. Until the start of your next Command phase, that Combat Doctrine is active and its effects apply to all Adeptus Astartes units from your army with this ability. You can only select each Combat Doctrine once per battle. 
+
+DEVASTATOR DOCTRINE: The Codex Astartes explains in detail the strategic value of overwhelming firepower applied to key targets while advancing into position in order to eliminate threats and create tactical openings. This unit is eligible to shoot in a turn in which it Advanced. 
+
+TACTICAL DOCTRINE: As the warring armies close upon one another and vicious fire-fights erupt, the Codex lays out strategies for swiftly seizing the initiative and combining versatility with firepower. This unit is eligible to shoot and declare a charge in a turn in which it Fell Back. 
+
+ASSAULT DOCTRINE: The Codex Astartes leaves no doubt that the killing blow in most engagements must be delivered with a decisive close-quarters strike. It presents plentiful tactical means to achieve this end. This unit is eligible to declare a charge in a turn in which it Advanced.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="59b8-0187-e6de-3ded" name="Oath of Moment" hidden="false" targetId="80c7-b138-11bb-fcc3" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7594-8b00-71a9-536c" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="false"/>
+      </categoryLinks>
     </forceEntry>
     <forceEntry id="8ee6-7572-9d4e-3364" name="Sons of Sanguinius" hidden="false">
       <constraints>
@@ -142,20 +160,14 @@
           <description>Each time an Adeptus Astartes unit from your army is selected to fight, if that unit made a Charge move this turn, until the end of the phase, add 1 to the Strength and Attacks characteristics of melee weapons equipped by models in that unit.</description>
         </rule>
       </rules>
-      <forceEntries>
-        <forceEntry id="36a3-ee8b-b2bd-724b" name="Sons of Sanguinius" hidden="false"/>
-      </forceEntries>
+      <infoLinks>
+        <infoLink id="4127-d2c0-29ca-c84d" name="Oath of Moment" hidden="false" targetId="80c7-b138-11bb-fcc3" type="rule"/>
+      </infoLinks>
       <categoryLinks>
-        <categoryLink id="cd03-ec9f-c388-3cb2" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="false"/>
-        <categoryLink id="bf1f-acc6-ec0f-572a" name="Enhancement" hidden="false" targetId="7ec5-348b-d81f-8fa3" primary="false"/>
+        <categoryLink id="67fe-3382-1951-bc1a" name="Adeptus Astartes" hidden="false" targetId="8042-4c44-5f3e-ad35" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
-  <rules>
-    <rule id="2b75-964f-ffdd-29f0" name="Oath of Moment" hidden="false">
-      <description>If your Army Faction is Adeptus Astartes, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, each time a model from your army with this ability makes an attack that targets that enemy unit, you can re-roll the Hit roll and you can re-roll the Wound roll.</description>
-    </rule>
-  </rules>
   <sharedSelectionEntries>
     <selectionEntry id="EB82-QT38-NQ66-AX38" name="Absolver bolt pistol" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
@@ -163,6 +175,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="SN99-VT51-TK10-FA45" name="Astartes chainsword" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a288-4cb9-5ab1-47b6" name="Astartes chainsword" hidden="false" targetId="DV51-WJ31-JG98-KZ96" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -192,6 +207,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="IA33-PZ73-SJ31-JA79" name="Close combat weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3ad6-1f25-7ce8-d102" name="Close combat weapon" hidden="false" targetId="WW15-TX37-UD21-SX26" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -337,11 +355,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="CK17-FL62-MF66-YD21" name="Plasma pistol" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="b1bd-3f16-b2ab-5385" name="Plasma Pistol" hidden="false" targetId="7a55-2bcd-c9d5-d901" type="infoGroup"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="HB62-FT64-OG97-QO69" name="Power fist" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3bc5-c60c-2a7c-9164" name="Power fist" hidden="false" targetId="TN74-UO51-CE63-NL83" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -402,6 +426,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="XL72-MT60-CS22-BD77" name="Thunder hammer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="8aeb-9637-aefd-5052" name="Thunder hammer" hidden="false" targetId="KC35-DN46-VS77-VC66" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -417,6 +444,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="UW22-YQ51-ZS61-FW68" name="Power weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="649a-e46d-7f56-eebf" name="Power weapon" hidden="false" targetId="RY32-OH80-OH94-DN44" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -507,6 +537,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="VA11-KT29-AW81-KW86" name="Heavy flamer" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="7e1b-8c2a-a81f-fe01" name="Heavy flamer" hidden="false" targetId="OD71-JV77-QL31-XS72" type="profile"/>
+      </infoLinks>
       <costs>
         <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
       </costs>
@@ -811,14 +844,141 @@
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="9072-6ecd-c594-e667" name="Leader" hidden="false" collective="false" import="true"/>
+    <selectionEntryGroup id="8159-53d9-ad3c-c734" name="Enhancements" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c5a9-c21f-0f80-5cbe" name="Gladius Task Force" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c686-ddd8-4964-3808" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="ab5f-2beb-4b85-df30" name="Artificer Armour" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="da68-776d-e2c1-b9a1" name="Artificer Armour" hidden="false" typeId="cddb-209a-a7bf-0c75" typeName="Enhancement">
+                  <characteristics>
+                    <characteristic name="Description" typeId="36c2-a213-a930-3f1d">Adeptus Astartes model only. The bearer has a Save characteristic of 2+ and the Feel No Pain 5+ ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0f45-1614-9274-98d9" name="The Honour Vehement" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="98d0-ec95-ca7e-7795" name="The Honour Vehement" hidden="false" typeId="cddb-209a-a7bf-0c75" typeName="Enhancement">
+                  <characteristics>
+                    <characteristic name="Description" typeId="36c2-a213-a930-3f1d">Adeptus Astartes model only. Add 1 to the Attacks and Strength characteristics of the bearer’s melee weapons. While the bearer is under the effects of the Assault Doctrine, add 2 to the Attacks and Strength characteristics of the bearer’s melee weapons instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8bd7-cef3-ca5d-29ee" name="Adept of the Codex" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="6281-d432-112f-fb51" name="Adept of the Codex" hidden="false" typeId="cddb-209a-a7bf-0c75" typeName="Enhancement">
+                  <characteristics>
+                    <characteristic name="Description" typeId="36c2-a213-a930-3f1d">Captain model only. At the start of your Command phase, if the bearer is on the battlefield, instead of selecting a Combat Doctrine to be active for your army, you can select the Tactical Doctrine. If you do, until the start of your next Command phase, that doctrine is active for the bearer’s unit only, even if you have already selected that doctrine to be active for your army this battle.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6973-695e-90e6-ddee" name="Bolter Discipline" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="e62b-e475-196e-cc39" name="Bolter Discipline" hidden="false" typeId="cddb-209a-a7bf-0c75" typeName="Enhancement">
+                  <characteristics>
+                    <characteristic name="Description" typeId="36c2-a213-a930-3f1d">Adeptus Astartes model only. While the bearer is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability. In addition, while the bearer’s unit is under the effects of the Devastator Doctrine, each time a model in that unit makes a ranged attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.  </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="902a-d6ce-e1ca-b6b9" name="Sons of Sanguinius" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8ee6-7572-9d4e-3364" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="33be-b2cd-a016-4ca2" name="Archangel&apos;s Shard" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="afe5-32a4-b333-529c" name="Archangel&apos;s Shard" hidden="false" typeId="cddb-209a-a7bf-0c75" typeName="Enhancement">
+                  <characteristics>
+                    <characteristic name="Description" typeId="36c2-a213-a930-3f1d">Adeptus Astartes model only. The bearer’s melee weapons have the [ANTI-CHAOS 5+] and  [LANCE] abilities.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cffb-9736-8357-c621" name="Artisan of War" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="43b9-adaa-b750-5225" name="Artisan of War" hidden="false" typeId="cddb-209a-a7bf-0c75" typeName="Enhancement">
+                  <characteristics>
+                    <characteristic name="Description" typeId="36c2-a213-a930-3f1d">Adeptus Astartes model only. Improve the Armour Penetration characteristic of the bearer’s weapons by 1, and the bearer has a Save characteristic of 2+.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <categoryLinks>
+                <categoryLink id="f592-dd08-8ded-6089" name="Enhancement" hidden="false" targetId="7ec5-348b-d81f-8fa3" primary="true"/>
+              </categoryLinks>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="58b1-176f-4e08-5e83" name="Icon of the Angel" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="52d9-981b-932e-7081" name="Icon of the Angel" hidden="false" typeId="cddb-209a-a7bf-0c75" typeName="Enhancement">
+                  <characteristics>
+                    <characteristic name="Description" typeId="36c2-a213-a930-3f1d">Adeptus Astartes model only. Each time an enemy unit (excluding Monsters and Vehicles) within Engagement Range of the bearer’s unit is selected to Fall Back, models in that enemy unit must take Desperate Escape tests as if their unit was Battle-shocked. When doing so, if that enemy unit is also Battle-shocked by other means, subtract 1 from each of those Desperate Escape tests.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7c03-044d-ae32-39d5" name="Visage of Death" hidden="false" collective="false" import="true" type="upgrade">
+              <profiles>
+                <profile id="2a2d-6e92-3d65-b42d" name="Visage of Death" hidden="false" typeId="cddb-209a-a7bf-0c75" typeName="Enhancement">
+                  <characteristics>
+                    <characteristic name="Description" typeId="36c2-a213-a930-3f1d">Adeptus Astartes model only. While an enemy unit (excluding Monsters and Vehicles) is within Engagement Range of the bearer’s unit, halve the Objective Control characteristic of models in that unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="Points" typeId="4398-3629-920e-f774" value="15.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="fa05-b9a3-0573-e3cb" name="Deep Strike" hidden="false">
-      <description>■ Unit can be set up in Reserves instead of on the battlefield. 
+      <description>
+■ Unit can be set up in Reserves instead of on the battlefield. 
 ■ Unit can be set up in your Reinforcements step, more than 9&quot; horizontally away from all enemy models</description>
     </rule>
     <rule id="d0db-b100-0ea0-1e3d" name="Leader" hidden="false">
-      <description>■ Before the battle, Character units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit. 
+      <description>
+■ Before the battle, Character units with the Leader ability can be attached to one of their Bodyguard units to form an Attached unit. 
 ■ Attached units can only contain one Leader. 
 ■ Attacks cannot be allocated to Character models in Attached units.</description>
     </rule>
@@ -829,7 +989,8 @@
       <description>During deployment, if every model in a unit has this ability, then when you set it up, it can be set up anywhere on the battlefield that is more than 9&quot; horizontally away from the enemy deployment zone and all enemy models.</description>
     </rule>
     <rule id="d7bf-5c72-65f1-fb67" name="Scouts" hidden="false">
-      <description>■ Scouts x&quot;: Unit can make a Normal move of up to x&quot; before the first turn begins. 
+      <description>
+■ Scouts x&quot;: Unit can make a Normal move of up to x&quot; before the first turn begins. 
 ■ If embarked in a Dedicated Transport, that Dedicated Transport can make this move instead. 
 ■ Must end this move more than 9&quot; horizontally away from all enemy models.</description>
     </rule>
@@ -849,13 +1010,13 @@
     </profile>
     <profile id="DV51-WJ31-JG98-KZ96" name="Astartes chainsword" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">4</characteristic>
         <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
-        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">3</characteristic>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">4</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">1</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
         <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
@@ -885,14 +1046,14 @@
     </profile>
     <profile id="XJ88-LG34-OE48-IS10" name="Bolt pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
-        <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">12</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">1</characteristic>
+        <characteristic name="BS" typeId="327b-0f44-3b33-d89e">2</characteristic>
         <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
-        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">4</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">0</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Pistol</characteristic>
       </characteristics>
     </profile>
     <profile id="FI97-YL18-AT93-AT28" name="Boltstorm gauntlet" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -945,13 +1106,13 @@
     </profile>
     <profile id="PL46-II13-CU51-DT88" name="Combi-weapon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">3</characteristic>
         <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
-        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">3</characteristic>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">4</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">0</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
         <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
@@ -1267,27 +1428,15 @@
         <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
-    <profile id="UK47-OX74-CF50-RG76" name="Plasma pistol" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
-        <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
-        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
-        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
-      </characteristics>
-    </profile>
     <profile id="TN74-UO51-CE63-NL83" name="Power fist" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">3</characteristic>
         <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
-        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">3</characteristic>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">8</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">2</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
         <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
@@ -1425,14 +1574,14 @@
     </profile>
     <profile id="KC35-DN46-VS77-VC66" name="Thunder hammer" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">3</characteristic>
         <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
-        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
-        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">4</characteristic>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">8</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">2</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Devastating Wounds</characteristic>
       </characteristics>
     </profile>
     <profile id="NJ57-BT50-IK20-YX43" name="Twin bolt rifle" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -1461,13 +1610,13 @@
     </profile>
     <profile id="RY32-OH80-OH94-DN44" name="Power weapon" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">Melee</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">4</characteristic>
         <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
-        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
+        <characteristic name="WS" typeId="846f-73ed-8ba5-a73f">3</characteristic>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">5</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">2</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
         <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
       </characteristics>
     </profile>
@@ -1677,14 +1826,14 @@
     </profile>
     <profile id="OD71-JV77-QL31-XS72" name="Heavy flamer" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="8955-beeb-adf1-f619"/>
-        <characteristic name="A" typeId="1873-f632-0b12-bd7a"/>
-        <characteristic name="BS" typeId="327b-0f44-3b33-d89e"/>
+        <characteristic name="Range" typeId="8955-beeb-adf1-f619">12</characteristic>
+        <characteristic name="A" typeId="1873-f632-0b12-bd7a">D6</characteristic>
+        <characteristic name="BS" typeId="327b-0f44-3b33-d89e">N/A</characteristic>
         <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
-        <characteristic name="S" typeId="9a4c-f516-2825-0fea"/>
-        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f"/>
-        <characteristic name="D" typeId="f17f-4510-0ce9-db28"/>
-        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283"/>
+        <characteristic name="S" typeId="9a4c-f516-2825-0fea">5</characteristic>
+        <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">1</characteristic>
+        <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
+        <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Ignores Cover, Torrent</characteristic>
       </characteristics>
     </profile>
     <profile id="ZX26-QL53-KH74-ON69" name="Plasma blaster" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
@@ -2403,4 +2552,34 @@
       </characteristics>
     </profile>
   </sharedProfiles>
+  <sharedInfoGroups>
+    <infoGroup id="7a55-2bcd-c9d5-d901" name="Plasma Pistol" hidden="false">
+      <profiles>
+        <profile id="1b23-f6fc-3ac4-a7fe" name="Plasma pistol - standard" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="8955-beeb-adf1-f619">12</characteristic>
+            <characteristic name="A" typeId="1873-f632-0b12-bd7a">1</characteristic>
+            <characteristic name="BS" typeId="327b-0f44-3b33-d89e">2</characteristic>
+            <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
+            <characteristic name="S" typeId="9a4c-f516-2825-0fea">7</characteristic>
+            <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">2</characteristic>
+            <characteristic name="D" typeId="f17f-4510-0ce9-db28">1</characteristic>
+            <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Pistol</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="eef8-1e8c-1dd0-ef86" name="Plasma pistol - supercharged" hidden="false" typeId="9eaa-5458-c031-7e1f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="8955-beeb-adf1-f619">45</characteristic>
+            <characteristic name="A" typeId="1873-f632-0b12-bd7a">1</characteristic>
+            <characteristic name="BS" typeId="327b-0f44-3b33-d89e">2</characteristic>
+            <characteristic name="WS" typeId="846f-73ed-8ba5-a73f"/>
+            <characteristic name="S" typeId="9a4c-f516-2825-0fea">8</characteristic>
+            <characteristic name="AP" typeId="b2ce-ed65-d0c1-fc9f">3</characteristic>
+            <characteristic name="D" typeId="f17f-4510-0ce9-db28">2</characteristic>
+            <characteristic name="Keywords" typeId="2833-7d9c-ace4-4283">Hazardous, Pistol</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+  </sharedInfoGroups>
 </gameSystem>
